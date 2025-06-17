@@ -1,0 +1,226 @@
+country_event = {
+	id = 16
+	title = "EVTNAME16"
+	desc = "EVTDESC16"
+	picture = Picture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA16"
+		
+		# Renaming Event Repeating 
+			country_event = { id = 16 days = 365 }
+
+		# Actual Renaming
+
+			# Ameriga
+				# Northweald
+					# 2377
+						any_land_province = { limit = { province_id = 2377 owner = { primary_culture = beornian } } change_province_name = "Providence" state_scope = { change_region_name = "Northweald" } }
+
+					# 2338
+						any_land_province = { limit = { province_id = 2338 owner = { primary_culture = beornian } } change_province_name = "New Dorchester" }
+
+					# 2337
+						any_land_province = { limit = { province_id = 2337 owner = { primary_culture = beornian } } change_province_name = "Port Northweald" }
+				# New Englewud
+					# 2343
+						any_land_province = { limit = { province_id = 2343 owner = { primary_culture = beornian } } change_province_name = "Routledgeburgh" state_scope = { change_region_name = "New Englewud" } }
+
+					# 2420
+						any_land_province = { limit = { province_id = 2420 owner = { primary_culture = beornian } } change_province_name = "St. Cuthbert's" }
+
+					# 2419
+						any_land_province = { limit = { province_id = 2419 owner = { primary_culture = beornian } } change_province_name = "Thetford-in-the-Forest" }
+				# Odonia
+					# 2344
+						any_land_province = { limit = { province_id = 2344 owner = { primary_culture = beornian } } change_province_name = "Charlemagne" state_scope = { change_region_name = "Odonia" } }
+
+					# 2347
+						any_land_province = { limit = { province_id = 2347 owner = { primary_culture = beornian } } change_province_name = "Hillstead" }
+
+					# 2345
+						any_land_province = { limit = { province_id = 2345 owner = { primary_culture = beornian } } change_province_name = "Fort Alcwin" }
+
+					# 2464
+						any_land_province = { limit = { province_id = 2464 owner = { primary_culture = beornian } } change_province_name = "Edward's Field" }
+
+					# 2346
+						any_land_province = { limit = { province_id = 2419 owner = { primary_culture = beornian } } change_province_name = "Norfolk-upon-Odon" }
+					
+				# New Cornwall
+					# 2399
+						any_land_province = { limit = { province_id = 2399 owner = { primary_culture = beornian } } change_province_name = "Murkburgh" state_scope = { change_region_name = "New-Cornwall" } }
+						any_land_province = { limit = { province_id = 2399 owner = { primary_culture = portuguese } } change_province_name = "San Ildefonso" state_scope = { change_region_name = "Patagonia" } }
+
+					# 2398
+						any_land_province = { limit = { province_id = 2398 owner = { primary_culture = beornian } } change_province_name = "Salkeld" }
+						any_land_province = { limit = { province_id = 2398 owner = { primary_culture = portuguese } } change_province_name = "Floridablanca" }
+						
+					# 2397
+						any_land_province = { limit = { province_id = 2397 owner = { primary_culture = beornian } } change_province_name = "Whitehaven" }
+						any_land_province = { limit = { province_id = 2397 owner = { primary_culture = portuguese } } change_province_name = "Guadalquivír" }
+					
+					# 2396
+						any_land_province = { limit = { province_id = 2396 owner = { primary_culture = beornian } } change_province_name = "Falmouth-in-Ameriga" }
+						any_land_province = { limit = { province_id = 2396 owner = { primary_culture = portuguese } } change_province_name = "Bahía Nueva" }
+					
+					# 2394
+						any_land_province = { limit = { province_id = 2394 owner = { primary_culture = beornian } } change_province_name = "Fenton" }
+						any_land_province = { limit = { province_id = 2394 owner = { primary_culture = portuguese } } change_province_name = "Altos de Espinosa" }
+					
+					# 2392
+						any_land_province = { limit = { province_id = 2392 owner = { primary_culture = beornian } } change_province_name = "Crummock" }
+						any_land_province = { limit = { province_id = 2392 owner = { primary_culture = portuguese } } change_province_name = "Sevilla de Patagones" }
+					
+				# New Mercia
+					# 2324
+						any_land_province = { limit = { province_id = 2324 owner = { primary_culture = beornian } } change_province_name = "Osricton" state_scope = { change_region_name = "New Mercia" } }
+						any_land_province = { limit = { province_id = 2324 owner = { primary_culture = portuguese } } change_province_name = "Cachanco" state_scope = { change_region_name = "Araucania Septentrional" } }
+				
+					# 2325
+						any_land_province = { limit = { province_id = 2325 owner = { primary_culture = beornian } } change_province_name = "Edward's Landing" }
+						any_land_province = { limit = { province_id = 2325 owner = { primary_culture = portuguese } } change_province_name = "Córdoba de Araucanías" }
+					
+					# 2326
+						any_land_province = { limit = { province_id = 2326 owner = { primary_culture = beornian } } change_province_name = "Redding" }
+						any_land_province = { limit = { province_id = 2326 owner = { primary_culture = portuguese } } change_province_name = "Quillota" }
+					
+					# 2327
+						any_land_province = { limit = { province_id = 2327 owner = { primary_culture = beornian } } change_province_name = "St Harold's" }
+						any_land_province = { limit = { province_id = 2327 owner = { primary_culture = portuguese } } change_province_name = "Río Verde" }
+					
+					# 2331
+						any_land_province = { limit = { province_id = 2331 owner = { primary_culture = beornian } } change_province_name = "Wayside" }
+						any_land_province = { limit = { province_id = 2331 owner = { primary_culture = portuguese } } change_province_name = "Pampilla" }
+					
+					# 2330
+						any_land_province = { limit = { province_id = 2330 owner = { primary_culture = beornian } } change_province_name = "New Hastings" }
+						any_land_province = { limit = { province_id = 2330 owner = { primary_culture = portuguese } } change_province_name = "Arauco" }
+					
+					# 2323
+						any_land_province = { limit = { province_id = 2323 owner = { primary_culture = beornian } } change_province_name = "Silver Valley" }
+						any_land_province = { limit = { province_id = 2323 owner = { primary_culture = portuguese } } change_province_name = "La Plata" }
+					
+				# North Fenlands
+					# 2356
+						any_land_province = { limit = { province_id = 2356 owner = { primary_culture = beornian } } change_province_name = "Seven-Currents" state_scope = { change_region_name = "North Fenlands" } }
+				
+					# 2358
+						any_land_province = { limit = { province_id = 2358 owner = { primary_culture = beornian } } change_province_name = "Bedegraine" }
+					
+					# 2554
+						any_land_province = { limit = { province_id = 2554 owner = { primary_culture = beornian } } change_province_name = "New Devonshire" }
+					
+				# Northumbria
+					# 2341
+						any_land_province = { limit = { province_id = 2341 owner = { primary_culture = beornian } } change_province_name = "Soegham" state_scope = { change_region_name = "Northumbria" } }
+				
+					# 2340
+						any_land_province = { limit = { province_id = 2340 owner = { primary_culture = beornian } } change_province_name = "Eadwinestead" }
+					
+					# 2342
+						any_land_province = { limit = { province_id = 2342 owner = { primary_culture = beornian } } change_province_name = "Oferburgh" }
+					
+				# Werrickshire
+					# 2389
+						any_land_province = { limit = { province_id = 2389 owner = { primary_culture = beornian } } change_province_name = "Werrickshire" state_scope = { change_region_name = "Werrickshire" } }
+				
+					# 2387
+						any_land_province = { limit = { province_id = 2387 owner = { primary_culture = beornian } } change_province_name = "Lancelot" }
+					
+					# 2388
+						any_land_province = { limit = { province_id = 2388 owner = { primary_culture = beornian } } change_province_name = "Rosby" }
+					
+				# Cumbria
+					# 2373
+						any_land_province = { limit = { province_id = 2373 owner = { primary_culture = beornian } } change_province_name = "Farrington" state_scope = { change_region_name = "Cumbria" } }
+				
+					# 2374
+						any_land_province = { limit = { province_id = 2374 owner = { primary_culture = beornian } } change_province_name = "Heregyth" }
+					
+					# 2375
+						any_land_province = { limit = { province_id = 2375 owner = { primary_culture = beornian } } change_province_name = "Ragstoc" }
+					
+					# 2385
+						any_land_province = { limit = { province_id = 2385 owner = { primary_culture = beornian } } change_province_name = "Pecsaetan" }
+					
+				# Red Coast
+					# 2309
+						any_land_province = { limit = { province_id = 2309 owner = { primary_culture = beornian } } change_province_name = "St. Edmund's" state_scope = { change_region_name = "Red Coast" } }
+						any_land_province = { limit = { province_id = 2309 owner = { primary_culture = portuguese } } change_province_name = "Algodonales" state_scope = { change_region_name = "Litoral Atacamense" } }
+
+					# 2240
+						any_land_province = { limit = { province_id = 2240 owner = { primary_culture = portuguese } } change_province_name = "Bahía Argentina" }
+				
+					# 2305
+						any_land_province = { limit = { province_id = 2305 owner = { primary_culture = beornian } } change_province_name = "Saltcoat" }
+						any_land_province = { limit = { province_id = 2305 owner = { primary_culture = portuguese } } change_province_name = "Mejillones" }
+					
+					# 2322
+						any_land_province = { limit = { province_id = 2322 owner = { primary_culture = beornian } } change_province_name = "Copperton" }
+						any_land_province = { limit = { province_id = 2322 owner = { primary_culture = portuguese } } change_province_name = "Copiapó" }
+					
+				# Land's End
+					# 2334
+						any_land_province = { limit = { province_id = 2334 owner = { primary_culture = beornian } } change_province_name = "Wirth's Point" state_scope = { change_region_name = "Land's End" } }
+						any_land_province = { limit = { province_id = 2334 owner = { primary_culture = portuguese } } change_province_name = "Alacalufes" state_scope = { change_region_name = "La Decembrina" } }
+				
+					# 2333
+						any_land_province = { limit = { province_id = 2333 owner = { primary_culture = beornian } } change_province_name = "New Scotia" }
+						any_land_province = { limit = { province_id = 2333 owner = { primary_culture = portuguese } } change_province_name = "Quebradas" }
+					
+					# 3361
+						any_land_province = { limit = { province_id = 3361 owner = { primary_culture = beornian } } change_province_name = "Port Sussex" }
+						any_land_province = { limit = { province_id = 3361 owner = { primary_culture = portuguese } } change_province_name = "San Policarpo" }
+					
+					# 2335
+						any_land_province = { limit = { province_id = 2335 owner = { primary_culture = beornian } } change_province_name = "Hronrade" }
+						any_land_province = { limit = { province_id = 2335 owner = { primary_culture = portuguese } } change_province_name = "Espíritu Santo" }
+					
+					# 2400
+						any_land_province = { limit = { province_id = 2400 owner = { primary_culture = beornian } } change_province_name = "Land's End" }
+						any_land_province = { limit = { province_id = 2400 owner = { primary_culture = portuguese } } change_province_name = "Puerto Loayza" }
+					
+				# Southern Sussex
+					# 3360
+						any_land_province = { limit = { province_id = 3360 owner = { primary_culture = beornian } } change_province_name = "Tomsaete" state_scope = { change_region_name = "Southern Sussex" } }
+						any_land_province = { limit = { province_id = 3360 owner = { primary_culture = portuguese } } change_province_name = "Araucanía Meridional" state_scope = { change_region_name = "Repucurá" } }
+				
+					# 2328
+						any_land_province = { limit = { province_id = 2328 owner = { primary_culture = beornian } } change_province_name = "Carlsborough" }
+						any_land_province = { limit = { province_id = 2328 owner = { primary_culture = portuguese } } change_province_name = "Melipeuco" }
+					
+					# 2329
+						any_land_province = { limit = { province_id = 2329 owner = { primary_culture = beornian } } change_province_name = "Siex-Shires" }
+						any_land_province = { limit = { province_id = 2329 owner = { primary_culture = portuguese } } change_province_name = "Puerto Boroa" }
+					
+					# 2332
+						any_land_province = { limit = { province_id = 2332 owner = { primary_culture = beornian } } change_province_name = "Galahad" }
+						any_land_province = { limit = { province_id = 2332 owner = { primary_culture = portuguese } } change_province_name = "Cádiz del Sur" }
+					
+					# 2391
+						any_land_province = { limit = { province_id = 2391 owner = { primary_culture = beornian } } change_province_name = "New Argyll" }
+						any_land_province = { limit = { province_id = 2391 owner = { primary_culture = portuguese } } change_province_name = "Santo Tomás" }
+					
+					# 3359
+						any_land_province = { limit = { province_id = 3359 owner = { primary_culture = beornian } } change_province_name = "Appleby" }
+						any_land_province = { limit = { province_id = 3359 owner = { primary_culture = portuguese } } change_province_name = "Manzanares" }
+					
+				# Broken Hills
+					# 2369
+						any_land_province = { limit = { province_id = 2369 owner = { primary_culture = beornian } } change_province_name = "Northern Tors" state_scope = { change_region_name = "Broken Hills" } }
+				
+					# 2368
+						any_land_province = { limit = { province_id = 2368 owner = { primary_culture = beornian } } change_province_name = "New Canaan" }
+					
+					# 2372
+						any_land_province = { limit = { province_id = 2372 owner = { primary_culture = beornian } } change_province_name = "Thorne-upon-Auburn" }
+					
+					
+
+		
+		
+	}
+}
