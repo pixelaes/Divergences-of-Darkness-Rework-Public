@@ -761,9 +761,82 @@ country_event = {
 						# 3374
 							any_land_province = { limit = { province_id = 3374 owner = { primary_culture = lusitanian } } change_province_name = "Santa Catarina" }
 						
+				# Europe
+					# Epirus
+						# 824
+							any_land_province = { limit = { province_id = 824 owner = { primary_culture = greek } } change_province_name = "Ioannina" }
+							any_land_province = { limit = { province_id = 824 owner = { OR = { primary_culture = turkish primary_culture = albanian } } } change_province_name = "Janina" }
+					# Thrace
+						# 830
+							any_land_province = { limit = { province_id = 830 owner = { primary_culture = greek } } change_province_name = "Alexandrople" }
+							any_land_province = { limit = { province_id = 830 owner = { primary_culture = turkish } } change_province_name = "Dedeagatch" }
 						
-
-		
-		
+						# 828
+							any_land_province = { limit = { province_id = 828 owner = { primary_culture = greek } } change_province_name = "Adrianople" }
+							any_land_province = { limit = { province_id = 828 owner = { primary_culture = turkish } } change_province_name = "Edirne" }
+						
+						# 858
+							any_land_province = { limit = { province_id = 858 owner = { primary_culture = greek } } change_province_name = "Saranta Ekklesies" }
+							any_land_province = { limit = { province_id = 858 owner = { primary_culture = turkish } } change_province_name = "Kirklareli" }
+						
+						# 859
+							any_land_province = { limit = { province_id = 859 owner = { primary_culture = greek } } change_province_name = "Kallipolis" }
+							any_land_province = { limit = { province_id = 859 owner = { primary_culture = turkish } } change_province_name = "Gallipoli" }
+					# Istanbul
+						# 860
+							any_land_province = { limit = { province_id = 860 owner = { primary_culture = greek } } change_province_name = "Constantinople" state_scope = { change_region_name = "Byzantium" } }
+							any_land_province = { limit = { province_id = 860 owner = { primary_culture = turkish } } change_province_name = "Istanbul" state_scope = { change_region_name = "Istanbul Region" } }
+					
+						# 861
+							any_land_province = { limit = { province_id = 861 owner = { primary_culture = greek } } change_province_name = "Chrysopolis" }
+							any_land_province = { limit = { province_id = 861 owner = { primary_culture = turkish } } change_province_name = "Üsküdar" }
+						
+					# Aydin
+						# 869
+							any_land_province = { limit = { province_id = 869 owner = { primary_culture = greek } } change_province_name = "Smyrna" state_scope = { change_region_name = "Ionia" } }
+							any_land_province = { limit = { province_id = 869 owner = { primary_culture = turkish } } change_province_name = "Izmir" state_scope = { change_region_name = "Aydin" } }
+					
+						# 872
+							any_land_province = { limit = { province_id = 872 owner = { primary_culture = greek } } change_province_name = "Milas" }
+							any_land_province = { limit = { province_id = 872 owner = { primary_culture = turkish } } change_province_name = "Mugla" }
+						
+					# Hudavendigar
+						# 863
+							any_land_province = { limit = { province_id = 863 owner = { primary_culture = greek } } change_province_name = "Prusa" state_scope = { change_region_name = "Nicaea" } }
+							any_land_province = { limit = { province_id = 863 owner = { primary_culture = turkish } } change_province_name = "Bursa" state_scope = { change_region_name = "Hudavendigar" } }
+						
+						# 864
+							any_land_province = { limit = { province_id = 864 owner = { primary_culture = greek } } change_province_name = "Paleokastro" }
+							any_land_province = { limit = { province_id = 864 owner = { primary_culture = turkish } } change_province_name = "Balikesir" }
+						
+						# 865
+							any_land_province = { limit = { province_id = 865 owner = { primary_culture = greek } } change_province_name = "Dardanellia" }
+							any_land_province = { limit = { province_id = 865 owner = { primary_culture = turkish } } change_province_name = "Canakkale" }
+						
+						# 862
+							any_land_province = { limit = { province_id = 862 owner = { primary_culture = greek } } change_province_name = "Nicomedia" }
+							any_land_province = { limit = { province_id = 862 owner = { primary_culture = turkish } } change_province_name = "Izmit" }
+						
+					# Pontus
+						# 880
+							any_land_province = { limit = { province_id = 880 owner = { primary_culture = greek } } change_province_name = "Kastra Komnenon" }
+							any_land_province = { limit = { province_id = 880 owner = { primary_culture = turkish } } change_province_name = "Kastamonu" }
+						
+						# 881
+							any_land_province = { limit = { province_id = 881 owner = { primary_culture = greek } } change_province_name = "Hadrianopolis" }
+							any_land_province = { limit = { province_id = 881 owner = { primary_culture = turkish } } change_province_name = "Bolu" }
+						
+						# 882
+							any_land_province = { limit = { province_id = 882 owner = { primary_culture = greek } } change_province_name = "Trapezounda" }
+							any_land_province = { limit = { province_id = 882 owner = { primary_culture = turkish } } change_province_name = "Trabzon" }
+						
+						# 883
+							any_land_province = { limit = { province_id = 883 owner = { primary_culture = greek } } change_province_name = "Sinope" }
+							any_land_province = { limit = { province_id = 883 owner = { primary_culture = turkish } } change_province_name = "Sinop" }
+						
+						# 884
+							any_land_province = { limit = { province_id = 884 owner = { primary_culture = greek } } change_province_name = "Kerasous" }
+							any_land_province = { limit = { province_id = 884 owner = { primary_culture = turkish } } change_province_name = "Giresun" }
+						
 	}
 }
