@@ -14,7 +14,7 @@ country_event = {
 
 		# Actual Renaming
 
-			# Ameriga
+			# South Ameriga
 				# Northweald
 					# 2377
 						any_land_province = { limit = { province_id = 2377 owner = { primary_culture = beornian } } change_province_name = "Providence" state_scope = { change_region_name = "Northweald" } }
@@ -27,12 +27,15 @@ country_event = {
 				# New Englewud
 					# 2343
 						any_land_province = { limit = { province_id = 2343 owner = { primary_culture = beornian } } change_province_name = "Routledgeburgh" state_scope = { change_region_name = "New Englewud" } }
+						any_land_province = { limit = { province_id = 2343 owner = { primary_culture = guarani } } change_province_name = "Ka'aty" state_scope = { change_region_name = "Yvate Ñemby" } }
 
 					# 2420
 						any_land_province = { limit = { province_id = 2420 owner = { primary_culture = beornian } } change_province_name = "St. Cuthbert's" }
+						any_land_province = { limit = { province_id = 2420 owner = { primary_culture = guarani } } change_province_name = "Navirá'i" }
 
 					# 2419
 						any_land_province = { limit = { province_id = 2419 owner = { primary_culture = beornian } } change_province_name = "Thetford-in-the-Forest" }
+						any_land_province = { limit = { province_id = 2419 owner = { primary_culture = guarani } } change_province_name = "Kuru'mba" }
 				# Odonia
 					# 2344
 						any_land_province = { limit = { province_id = 2344 owner = { primary_culture = beornian } } change_province_name = "Charlemagne" state_scope = { change_region_name = "Odonia" } }
@@ -118,22 +121,28 @@ country_event = {
 				# North Fenlands
 					# 2356
 						any_land_province = { limit = { province_id = 2356 owner = { primary_culture = beornian } } change_province_name = "Seven-Currents" state_scope = { change_region_name = "North Fenlands" } }
+						any_land_province = { limit = { province_id = 2356 owner = { primary_culture = guarani } } change_province_name = "Taragüi" state_scope = { change_region_name = "Ybyya Ñemby" } }
 				
 					# 2358
 						any_land_province = { limit = { province_id = 2358 owner = { primary_culture = beornian } } change_province_name = "Bedegraine" }
+						any_land_province = { limit = { province_id = 2358 owner = { primary_culture = guarani } } change_province_name = "Yvera" }
 					
 					# 2554
 						any_land_province = { limit = { province_id = 2554 owner = { primary_culture = beornian } } change_province_name = "New Devonshire" }
+						any_land_province = { limit = { province_id = 2554 owner = { primary_culture = guarani } } change_province_name = "Yvy Pytá" }
 					
 				# Northumbria
 					# 2341
 						any_land_province = { limit = { province_id = 2341 owner = { primary_culture = beornian } } change_province_name = "Soegham" state_scope = { change_region_name = "Northumbria" } }
+						any_land_province = { limit = { province_id = 2341 owner = { primary_culture = guarani } } change_province_name = "Kambyretá" state_scope = { change_region_name = "Tekoha" } }
 				
 					# 2340
 						any_land_province = { limit = { province_id = 2340 owner = { primary_culture = beornian } } change_province_name = "Eadwinestead" }
+						any_land_province = { limit = { province_id = 2340 owner = { primary_culture = guarani } } change_province_name = "Yarigua'a" }
 					
 					# 2342
 						any_land_province = { limit = { province_id = 2342 owner = { primary_culture = beornian } } change_province_name = "Oferburgh" }
+						any_land_province = { limit = { province_id = 2342 owner = { primary_culture = guarani } } change_province_name = "Yryvu Kua" }
 					
 				# Werrickshire
 					# 2389
