@@ -474,6 +474,7 @@ new_imperial_capital = {
 		tag = ARE
 		has_country_flag = ARE_LARP
 		NOT = { capital = 2302 }
+		NOT = { has_country_flag = ARE_new_imperial_capital }
 	}
 	
 	allow = {
@@ -482,9 +483,15 @@ new_imperial_capital = {
 	}
 	
 	effect = {
-		2302 = { change_province_name = "Toledo de Indias" }
+		set_country_flag = ARE_new_imperial_capital
 		prestige = 10
 		2302 = { add_province_modifier = { name = "colonial_recruitment" duration = 1600 } }
+		set_country_flag = hidden_tooltip
+		random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+			owner = { set_country_flag = forced_renaming }
+			CLN = { country_event = 16 }
+		}
+		clr_country_flag = hidden_tooltip
 	}
 }
 
@@ -517,9 +524,14 @@ picture = NAN_colony
 		SA_4 = { secede_province = THIS }
 		LOT_3 = { secede_province = THIS }
 		LOT_2358 = { add_province_modifier = { name = "colonial_recruitment" duration = 2200 } }
-		2340 = { change_province_name = "Corrientes del Plata" }
 		2340 = { trade_goods = tobacco }
 		set_country_flag = ripguarani
+		set_country_flag = hidden_tooltip
+		random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+			owner = { set_country_flag = forced_renaming }
+			CLN = { country_event = 16 }
+		}
+		clr_country_flag = hidden_tooltip
 	}
 }
 

@@ -9,8 +9,19 @@ country_event = {
 	option = {
 		name = "EVTOPTA16"
 		
-		# Renaming Event Repeating 
-			country_event = { id = 16 days = 365 }
+		# Renaming Event Repeating + Flag Setup
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { FROM = { has_country_flag = forced_renaming } }
+					}
+				}
+				owner = { 
+					country_event = { id = 16 days = 365 }
+				}
+			}
+
+			FROM = { clr_country_flag = forced_renaming }
 
 		# Actual Renaming
 
@@ -176,6 +187,7 @@ country_event = {
 						any_land_province = { limit = { province_id = 2340 owner = { primary_culture = guarani } } change_province_name = "Yarigua'a" }
 						any_land_province = { limit = { province_id = 2340 owner = { primary_culture = caladeran } } change_province_name = "Río Grande" }
 						any_land_province = { limit = { province_id = 2340 owner = { OR = { primary_culture = atlantian primary_culture = lotharian primary_culture = amazonian } } } change_province_name = "Confluence" }
+						any_land_province = { limit = { province_id = 2340 owner = { tag = ARE has_country_flag = ripguarani } } change_province_name = "Corrientes del Plata" }
 					
 					# 2342
 						any_land_province = { limit = { province_id = 2342 owner = { primary_culture = beornian } } change_province_name = "Oferburgh" }
@@ -496,6 +508,7 @@ country_event = {
 					# Andes Centrales
 						# 2302
 							any_land_province = { limit = { province_id = 2302 owner = { primary_culture = caladeran } } change_province_name = "Cuzco" state_scope = { change_region_name = "Andes Centrales" } }
+							any_land_province = { limit = { province_id = 2302 owner = { primary_culture = granadan has_country_flag = ARE_new_imperial_capital } } change_province_name = "Toledo de Indias" state_scope = { change_region_name = "Andes Centrales" } }
 					
 						# 2303
 							any_land_province = { limit = { province_id = 2303 owner = { primary_culture = caladeran } } change_province_name = "Juliaca" }
@@ -667,7 +680,7 @@ country_event = {
 					# Laofeng
 						# 106
 							any_land_province = { limit = { province_id = 106 owner = { primary_culture = qingqiuan } } change_province_name = "Longshan" state_scope = { change_region_name = "Laofeng" } }
-							any_land_province = { limit = { province_id = 106 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Nouvelle Paris" state_scope = { change_region_name = "Minchichanes Nï¿½braskies" } }
+							any_land_province = { limit = { province_id = 106 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Nouvelle Paris" state_scope = { change_region_name = "Minchichanes Nébraskies" } }
 					
 						# 109
 							any_land_province = { limit = { province_id = 109 owner = { primary_culture = qingqiuan } } change_province_name = "Laofeng" }
@@ -691,56 +704,56 @@ country_event = {
 							any_land_province = { limit = { province_id = 116 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Grand Mouflon" }
 						
 						# 115
-							any_land_province = { limit = { province_id = 115 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Fort Leclï¿½re" }
+							any_land_province = { limit = { province_id = 115 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Fort Leclère" }
 						
 					# Mer Morte des Minchitchanes
 						# 94
-							any_land_province = { limit = { province_id = 94 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Jï¿½richo d'Arcadie" state_scope = { change_region_name = "Mer Morte des Minchitchanes" } }
+							any_land_province = { limit = { province_id = 94 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Jéricho d'Arcadie" state_scope = { change_region_name = "Mer Morte des Minchitchanes" } }
 							any_land_province = { limit = { province_id = 94 owner = { primary_culture = lusitanian } } change_province_name = "Salinas do Norte" state_scope = { change_region_name = "Teguaiu" } }
 					
 						# 95
 							any_land_province = { limit = { province_id = 95 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Charleville" }
-							any_land_province = { limit = { province_id = 95 owner = { primary_culture = lusitanian } } change_province_name = "Quautitlï¿½ da Serra" }
+							any_land_province = { limit = { province_id = 95 owner = { primary_culture = lusitanian } } change_province_name = "Quautitlã da Serra" }
 						
 						# 17
 							any_land_province = { limit = { province_id = 17 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Mont-Blanc" }
-							any_land_province = { limit = { province_id = 17 owner = { primary_culture = lusitanian } } change_province_name = "Serra dos Timpanoguï¿½s" }
+							any_land_province = { limit = { province_id = 17 owner = { primary_culture = lusitanian } } change_province_name = "Serra dos Timpanoguês" }
 						
 						# 3391
-							any_land_province = { limit = { province_id = 3391 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Nouvelle Guï¿½rande" }
+							any_land_province = { limit = { province_id = 3391 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Nouvelle Guérande" }
 							any_land_province = { limit = { province_id = 3391 owner = { primary_culture = lusitanian } } change_province_name = "Cidade do Copalha" }
 						
 						# 111
-							any_land_province = { limit = { province_id = 111 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Grande Vallï¿½e" }
+							any_land_province = { limit = { province_id = 111 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Grande Vallée" }
 							any_land_province = { limit = { province_id = 111 owner = { primary_culture = lusitanian } } change_province_name = "Vale Grande" }
 						
 						# 107
 							any_land_province = { limit = { province_id = 107 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Le Bassin" }
 							any_land_province = { limit = { province_id = 107 owner = { primary_culture = lusitanian } } change_province_name = "Desterro" }
 						
-					# Riviï¿½re Rouge
+					# Rivière Rouge
 						# 97
-							any_land_province = { limit = { province_id = 97 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Ville-Vermeille" state_scope = { change_region_name = "Riviï¿½re Rouge" } }
-							any_land_province = { limit = { province_id = 97 owner = { primary_culture = lusitanian } } change_province_name = "Vermelhï¿½polis" state_scope = { change_region_name = "Rio Vermelho" } }
+							any_land_province = { limit = { province_id = 97 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Ville-Vermeille" state_scope = { change_region_name = "Rivière Rouge" } }
+							any_land_province = { limit = { province_id = 97 owner = { primary_culture = lusitanian } } change_province_name = "Vermelhópolis" state_scope = { change_region_name = "Rio Vermelho" } }
 					
 						# 98
 							any_land_province = { limit = { province_id = 98 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "St Pierre du Yichengue" }
-							any_land_province = { limit = { province_id = 98 owner = { primary_culture = lusitanian } } change_province_name = "Sï¿½o Pedro" }
+							any_land_province = { limit = { province_id = 98 owner = { primary_culture = lusitanian } } change_province_name = "São Pedro" }
 						
 						# 99
-							any_land_province = { limit = { province_id = 99 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Sainte Rita du Cobrï¿½" }
+							any_land_province = { limit = { province_id = 99 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Sainte Rita du Cobré" }
 							any_land_province = { limit = { province_id = 99 owner = { primary_culture = lusitanian } } change_province_name = "Santa Rita do Cobre" }
 						
 						# 108
-							any_land_province = { limit = { province_id = 108 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Dï¿½chefiladï¿½rï¿½ches" }
+							any_land_province = { limit = { province_id = 108 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Déchefiladérèches" }
 							any_land_province = { limit = { province_id = 108 owner = { primary_culture = lusitanian } } change_province_name = "Desfiladeiros" }
 						
 					# Bahia do Oeste
 						# 89
-							any_land_province = { limit = { province_id = 89 owner = { primary_culture = lusitanian } } change_province_name = "Sï¿½o Miguel" state_scope = { change_region_name = "Bahia do Oeste" } }
+							any_land_province = { limit = { province_id = 89 owner = { primary_culture = lusitanian } } change_province_name = "São Miguel" state_scope = { change_region_name = "Bahia do Oeste" } }
 					
 						# 96
-							any_land_province = { limit = { province_id = 96 owner = { primary_culture = lusitanian } } change_province_name = "Sertï¿½o do Mojave" }
+							any_land_province = { limit = { province_id = 96 owner = { primary_culture = lusitanian } } change_province_name = "Sertão do Mojave" }
 						
 						# 3375
 							any_land_province = { limit = { province_id = 3375 owner = { primary_culture = lusitanian } } change_province_name = "Palmeiras" }
