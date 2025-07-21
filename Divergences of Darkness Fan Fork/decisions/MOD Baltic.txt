@@ -3172,6 +3172,7 @@ political_decisions = {
 	
 		effect = {
 		       prestige = 10
+			   set_country_flag = PLC_crimean_triumph_renaming_enabled
 			   clr_country_flag = enable_tatar_decision
 			   all_core = { remove_core = CSK }       
 			   CRI = { all_core = { add_core = PLC } }
@@ -3206,7 +3207,6 @@ political_decisions = {
        1039 = { change_province_name = "Saraj nad Idelem" } 
 	           967 = { 
 				    life_rating = 5
-				    change_province_name = "Nowa Przystan" 
 				    add_province_modifier = {
 				    	name = gateway_to_russia
 						duration = 7300
