@@ -324,519 +324,519 @@ country_event = {
 						any_land_province = { limit = { province_id = 2372 owner = { primary_culture = beornian } } change_province_name = "Thorne-upon-Auburn" }
 						any_land_province = { limit = { province_id = 2372 owner = { primary_culture = caladeran } } change_province_name = "Las Yungas" }
 					
-			# North Ameriga?
+			# North Ameriga
 				# Sierras del Henia
 					# 2376
 						any_land_province = { limit = { province_id = 2376 owner = { primary_culture = caladeran } } change_province_name = "San Carlos Juríes" state_scope = { change_region_name = "Sierras del Henia" } }
 						any_land_province = { limit = { province_id = 2376 owner = { primary_culture = quechua } } change_province_name = "Thaquy" state_scope = { change_region_name = "Chinchakuyun" } }
-				
+			
 					# 2378
 						any_land_province = { limit = { province_id = 2378 owner = { primary_culture = caladeran } } change_province_name = "Quebrachál" }
 						any_land_province = { limit = { province_id = 2378 owner = { primary_culture = quechua } } change_province_name = "Talqanqu" }
-					
+				
 					# 2379
 						any_land_province = { limit = { province_id = 2379 owner = { primary_culture = caladeran } } change_province_name = "Paravachasca" }
 						any_land_province = { limit = { province_id = 2379 owner = { primary_culture = quechua } } change_province_name = "Kamiarallaqta" }
-					
+				
 					# 2386
 						any_land_province = { limit = { province_id = 2386 owner = { primary_culture = caladeran } } change_province_name = "Sancancete" }
 						any_land_province = { limit = { province_id = 2386 owner = { primary_culture = quechua } } change_province_name = "Shanaqasta" }
-					
+				
 				# Cuyo Septentrional
 					# 2390
 						any_land_province = { limit = { province_id = 2390 owner = { primary_culture = caladeran } } change_province_name = "Santa Rosa del Cuyo" state_scope = { change_region_name = "Cuyo Septentrional" } }
 						any_land_province = { limit = { province_id = 2390 owner = { primary_culture = quechua } } change_province_name = "Tapankatu" state_scope = { change_region_name = "Qullakuyun" } }
-				
+			
 					# 2383
-						any_land_province = { limit = { province_id = 2383 owner = { primary_culture = caladeran } } change_province_name = "Michilingüe" }
+						any_land_province = { limit = { province_id = 2383 owner = { primary_culture = caladeran } } change_province_name = = "Michilingüe" }
 						any_land_province = { limit = { province_id = 2383 owner = { primary_culture = quechua } } change_province_name = "Chuqlluyupa" }
-					
+				
 					# 2384
 						any_land_province = { limit = { province_id = 2384 owner = { primary_culture = caladeran } } change_province_name = "Chocancharagua" }
 						any_land_province = { limit = { province_id = 2384 owner = { primary_culture = quechua } } change_province_name = "Wanaqacha" }
-					
-					#3358
+				
+					# 3358
 						any_land_province = { limit = { province_id = 3358 owner = { primary_culture = caladeran } } change_province_name = "Fortín Inglés" }
 						any_land_province = { limit = { province_id = 3358 owner = { primary_culture = quechua } } change_province_name = "Warwarku" }
-					
+				
 					# 2381
-						any_land_province = { limit = { province_id = 2381 owner = { primary_culture = caladeran } } change_province_name = "Calamuchita" }
-						any_land_province = { limit = { province_id = 2381 owner = { primary_culture = quechua } } change_province_name = "Lunkupanpa" }
+					any_land_province = { limit = { province_id = 2381 owner = { primary_culture = caladeran } } change_province_name = "Calamuchita" }
+					any_land_province = { limit = { province_id = 2381 owner = { primary_culture = quechua } } change_province_name = "Lunkupanpa" }
+				
+				# Canán de la Nueva
+					# 2363
+						any_land_province = { limit = { province_id = 2363 owner = { primary_culture = caladeran } } change_province_name = "Esplandián" state_scope = { change_region_name = "Canán de la Nueva" } }
+						any_land_province = { limit = { province_id = 2363 owner = { primary_culture = quechua } } change_province_name = "Kolastinepa" state_scope = { change_region_name = "Q'illupanpa" } }
+				
+					# 2380
+						any_land_province = { limit = { province_id = 2380 owner = { primary_culture = caladeran } } change_province_name = "Villa Ansenuza" }
+						any_land_province = { limit = { province_id = 2380 owner = { primary_culture = quechua } } change_province_name = "Wankallaqta" }
 					
-					# Canán de la Nueva
-						# 2363
-							any_land_province = { limit = { province_id = 2363 owner = { primary_culture = caladeran } } change_province_name = "Esplandián" state_scope = { change_region_name = "Canán de la Nueva" } }
-							any_land_province = { limit = { province_id = 2363 owner = { primary_culture = quechua } } change_province_name = "Kolastinepa" state_scope = { change_region_name = "Q'illupanpa" } }
+					# 2382
+						any_land_province = { limit = { province_id = 2382 owner = { primary_culture = caladeran } } change_province_name = "Moisés" }
+						any_land_province = { limit = { province_id = 2382 owner = { primary_culture = quechua } } change_province_name = "Purmapanpa" }
 					
-						# 2380
-							any_land_province = { limit = { province_id = 2380 owner = { primary_culture = caladeran } } change_province_name = "Villa Ansenuza" }
-							any_land_province = { limit = { province_id = 2380 owner = { primary_culture = quechua } } change_province_name = "Wankallaqta" }
-						
-						# 2382
-							any_land_province = { limit = { province_id = 2382 owner = { primary_culture = caladeran } } change_province_name = "Moisés" }
-							any_land_province = { limit = { province_id = 2382 owner = { primary_culture = quechua } } change_province_name = "Purmapanpa" }
-						
-						# 2361
-							any_land_province = { limit = { province_id = 2361 owner = { primary_culture = caladeran } } change_province_name = "Jerusalén de Pampas" }
-							any_land_province = { limit = { province_id = 2361 owner = { primary_culture = quechua } } change_province_name = "Intiyaku" }
-						
-					# Inglaterra de Pampas
-						# 2348
-							any_land_province = { limit = { province_id = 2348 owner = { primary_culture = caladeran } } change_province_name = "Gaula" state_scope = { change_region_name = "Inglaterra de Pampas" } }
-							any_land_province = { limit = { province_id = 2348 owner = { primary_culture = quechua has_country_flag = Washkar_INC } } change_province_name = "Pukallaqta" state_scope = { change_region_name = "Inlispanpa" } }
-							any_land_province = { limit = { province_id = 2348 owner = { primary_culture = quechua has_country_flag = Llapa_INC } } change_province_name = "Juch'uy Qusqu" state_scope = { change_region_name = "Inlispanpa" } }
+					# 2361
+						any_land_province = { limit = { province_id = 2361 owner = { primary_culture = caladeran } } change_province_name = "Jerusalén de Pampas" }
+						any_land_province = { limit = { province_id = 2361 owner = { primary_culture = quechua } } change_province_name = "Intiyaku" }
 					
-						# 2350
-							any_land_province = { limit = { province_id = 2350 owner = { primary_culture = caladeran } } change_province_name = "Sagrado Corazón" }
-							any_land_province = { limit = { province_id = 2350 owner = { primary_culture = quechua } } change_province_name = "Anqalu" }
-						
-						# 2351
-							any_land_province = { limit = { province_id = 2351 owner = { primary_culture = caladeran } } change_province_name = "Nueva Anglia" }
-							any_land_province = { limit = { province_id = 2351 owner = { primary_culture = quechua } } change_province_name = "Inlispukyu" }
-						
-						# 2352
-							any_land_province = { limit = { province_id = 2352 owner = { primary_culture = caladeran } } change_province_name = "Bahía Blanca" }
-							any_land_province = { limit = { province_id = 2352 owner = { primary_culture = quechua } } change_province_name = "Pihuinku" }
-						
-						# 2349
-							any_land_province = { limit = { province_id = 2349 owner = { primary_culture = caladeran } } change_province_name = "Vereao del Sur" }
-							any_land_province = { limit = { province_id = 2349 owner = { primary_culture = quechua has_country_flag = Washkar_INC } } change_province_name = "Yunqamayu" }
-							any_land_province = { limit = { province_id = 2349 owner = { primary_culture = quechua has_country_flag = Llapa_INC } } change_province_name = "Yunqa Mayu" }
-						
-					# Llanos del Sur
-						# 2393
-							any_land_province = { limit = { province_id = 2393 owner = { primary_culture = caladeran } } change_province_name = "Misiones de Pampas" state_scope = { change_region_name = "Llanos del Sur" } }
-							any_land_province = { limit = { province_id = 2393 owner = { primary_culture = quechua } } change_province_name = "Kutriqu" state_scope = { change_region_name = "Hatun Panpa" } }
+				# Inglaterra de Pampas
+					# 2348
+						any_land_province = { limit = { province_id = 2348 owner = { primary_culture = caladeran } } change_province_name = "Gaula" state_scope = { change_region_name = "Inglaterra de Pampas" } }
+						any_land_province = { limit = { province_id = 2348 owner = { primary_culture = quechua has_country_flag = Washkar_INC } } change_province_name = "Pukallaqta" state_scope = { change_region_name = "Inlispanpa" } }
+						any_land_province = { limit = { province_id = 2348 owner = { primary_culture = quechua has_country_flag = Llapa_INC } } change_province_name = "Juch'uy Qusqu" state_scope = { change_region_name = "Inlispanpa" } }
+				
+					# 2350
+						any_land_province = { limit = { province_id = 2350 owner = { primary_culture = caladeran } } change_province_name = "Sagrado Corazón" }
+						any_land_province = { limit = { province_id = 2350 owner = { primary_culture = quechua } } change_province_name = "Anqalu" }
 					
-						# 2354
-							any_land_province = { limit = { province_id = 2354 owner = { primary_culture = caladeran } } change_province_name = "Carraguayál" }
-							any_land_province = { limit = { province_id = 2354 owner = { primary_culture = quechua } } change_province_name = "Wasiyakupa" }
-						
-						# 2355
-							any_land_province = { limit = { province_id = 2355 owner = { primary_culture = caladeran } } change_province_name = "Nueva Londres" }
-							any_land_province = { limit = { province_id = 2355 owner = { primary_culture = quechua } } change_province_name = "Juch'uy Rundun" }
-						
-						# 2395
-							any_land_province = { limit = { province_id = 2395 owner = { primary_culture = caladeran } } change_province_name = "Entre Ríos" }
-							any_land_province = { limit = { province_id = 2395 owner = { primary_culture = quechua } } change_province_name = "Yanamayu" }
-						
-						# 2353
-							any_land_province = { limit = { province_id = 2353 owner = { primary_culture = caladeran } } change_province_name = "Santos de Floresta" }
-							any_land_province = { limit = { province_id = 2353 owner = { primary_culture = quechua } } change_province_name = "Ch'imeqo" }
-						
-					# Chaco Inglés
-						# 2366
-							any_land_province = { limit = { province_id = 2366 owner = { primary_culture = caladeran } } change_province_name = "Victoria" state_scope = { change_region_name = "Chaco Inglés" } }
-							any_land_province = { limit = { province_id = 2366 owner = { primary_culture = quechua } } change_province_name = "Wichimarka" state_scope = { change_region_name = "Chaku" } }
-							any_land_province = { limit = { province_id = 2366 owner = { OR = { primary_culture = atlantian primary_culture = lotharian primary_culture = amazonian } } } change_province_name = "Fort Clèves" state_scope = { change_region_name = "Chaqueau du Sud" } }
+					# 2351
+						any_land_province = { limit = { province_id = 2351 owner = { primary_culture = caladeran } } change_province_name = "Nueva Anglia" }
+						any_land_province = { limit = { province_id = 2351 owner = { primary_culture = quechua } } change_province_name = "Inlispukyu" }
 					
-						# 2367
-							any_land_province = { limit = { province_id = 2367 owner = { primary_culture = caladeran } } change_province_name = "Taguasét" }
-							any_land_province = { limit = { province_id = 2367 owner = { primary_culture = quechua } } change_province_name = "Llankhasacha" }
-							any_land_province = { limit = { province_id = 2367 owner = { OR = { primary_culture = atlantian primary_culture = lotharian primary_culture = amazonian } } } change_province_name = "Forêt Rose" }
-						
-						# 2365
-							any_land_province = { limit = { province_id = 2365 owner = { primary_culture = caladeran } } change_province_name = "Cruz del Tonocoté" }
-							any_land_province = { limit = { province_id = 2365 owner = { primary_culture = quechua } } change_province_name = "Maqumita" }
-							any_land_province = { limit = { province_id = 2365 owner = { OR = { primary_culture = atlantian primary_culture = lotharian primary_culture = amazonian } } } change_province_name = "Penrith" }
-						
-						# 2364
-							any_land_province = { limit = { province_id = 2364 owner = { primary_culture = caladeran } } change_province_name = "Pampa del Chaco" }
-							any_land_province = { limit = { province_id = 2364 owner = { primary_culture = quechua } } change_province_name = "Rukahakuna" }
-							any_land_province = { limit = { province_id = 2364 owner = { OR = { primary_culture = atlantian primary_culture = lotharian primary_culture = amazonian } } } change_province_name = "Beauchâteau" }
-						
-						# 2362
-							any_land_province = { limit = { province_id = 2362 owner = { primary_culture = caladeran } } change_province_name = "Castronuevo" }
-							any_land_province = { limit = { province_id = 2362 owner = { primary_culture = quechua } } change_province_name = "Llasaqa" }
-							any_land_province = { limit = { province_id = 2362 owner = { OR = { primary_culture = atlantian primary_culture = lotharian primary_culture = amazonian } } } change_province_name = "Evéroui" }
-						
-					# Sierras del Collao
-						# 2315
-							any_land_province = { limit = { province_id = 2315 owner = { primary_culture = caladeran } } change_province_name = "Chuquisaca" state_scope = { change_region_name = "Sierras del Collao" } }
+					# 2352
+						any_land_province = { limit = { province_id = 2352 owner = { primary_culture = caladeran } } change_province_name = "Bahía Blanca" }
+						any_land_province = { limit = { province_id = 2352 owner = { primary_culture = quechua } } change_province_name = "Pihuinku" }
 					
-						# 2313
-							any_land_province = { limit = { province_id = 2313 owner = { primary_culture = caladeran } } change_province_name = "Mandacál" }
-						
-						# 3357
-							any_land_province = { limit = { province_id = 3357 owner = { primary_culture = caladeran } } change_province_name = "Pampa Chica" }
-						
-						# 2311
-							any_land_province = { limit = { province_id = 2311 owner = { primary_culture = caladeran } } change_province_name = "Cochabamba" }
-						
-					# Collao Septentrional
-						# 2314
-							any_land_province = { limit = { province_id = 2314 owner = { primary_culture = caladeran } } change_province_name = "Potosí" state_scope = { change_region_name = "Collao Septentrional" } }
+					# 2349
+						any_land_province = { limit = { province_id = 2349 owner = { primary_culture = caladeran } } change_province_name = "Vereao del Sur" }
+						any_land_province = { limit = { province_id = 2349 owner = { primary_culture = quechua has_country_flag = Washkar_INC } } change_province_name = "Yunqamayu" }
+						any_land_province = { limit = { province_id = 2349 owner = { primary_culture = quechua has_country_flag = Llapa_INC } } change_province_name = "Yunqa Mayu" }
 					
-						# 2312
-							any_land_province = { limit = { province_id = 2312 owner = { primary_culture = caladeran } } change_province_name = "Jesús del Collao" }
-						
-						# 2370
-							any_land_province = { limit = { province_id = 2370 owner = { primary_culture = caladeran } } change_province_name = "Chuquiago" }
-						
-						# 2307
-							any_land_province = { limit = { province_id = 2307 owner = { primary_culture = caladeran } } change_province_name = "Santa Cruz" }
-						
-					# Amazonia Sud-Occidental
-						# 2316
-							any_land_province = { limit = { province_id = 2316 owner = { primary_culture = caladeran } } change_province_name = "Caladero" state_scope = { change_region_name = "Amazonia Sud-Occidental" } }
+				# Llanos del Sur
+					# 2393
+						any_land_province = { limit = { province_id = 2393 owner = { primary_culture = caladeran } } change_province_name = "Misiones de Pampas" state_scope = { change_region_name = "Llanos del Sur" } }
+						any_land_province = { limit = { province_id = 2393 owner = { primary_culture = quechua } } change_province_name = "Kutriqu" state_scope = { change_region_name = "Hatun Panpa" } }
+				
+					# 2354
+						any_land_province = { limit = { province_id = 2354 owner = { primary_culture = caladeran } } change_province_name = "Carraguayál" }
+						any_land_province = { limit = { province_id = 2354 owner = { primary_culture = quechua } } change_province_name = "Wasiyakupa" }
 					
-						# 2319
-							any_land_province = { limit = { province_id = 2319 owner = { primary_culture = caladeran } } change_province_name = "Pampa Amazónica" }
-						
-						# 2301
-							any_land_province = { limit = { province_id = 2301 owner = { primary_culture = caladeran } } change_province_name = "Altillos del Amazonas" }
-						
-						# 2321
-							any_land_province = { limit = { province_id = 2321 owner = { primary_culture = caladeran } } change_province_name = "Riberalta" }
-						
-					# Bahía Salada del Norte
-						# 2304
-							any_land_province = { limit = { province_id = 2304 owner = { primary_culture = caladeran } } change_province_name = "Arequipa" state_scope = { change_region_name = "Bahía Salada del Norte" } }
+					# 2355
+						any_land_province = { limit = { province_id = 2355 owner = { primary_culture = caladeran } } change_province_name = "Nueva Londres" }
+						any_land_province = { limit = { province_id = 2355 owner = { primary_culture = quechua } } change_province_name = "Juch'uy Rundun" }
 					
-						# 2578
-							any_land_province = { limit = { province_id = 2578 owner = { primary_culture = caladeran } } change_province_name = "Tacna" }
-						
-						# 3356
-							any_land_province = { limit = { province_id = 3356 owner = { primary_culture = caladeran } } change_province_name = "Andahuaylas" }
-						
-						# 2371
-							any_land_province = { limit = { province_id = 2371 owner = { primary_culture = caladeran } } change_province_name = "Quilca" }
-						
-						# 2299
-							any_land_province = { limit = { province_id = 2299 owner = { primary_culture = caladeran } } change_province_name = "Huilcashuamán" }
-						
-					# Andes Centrales
-						# 2302
-							any_land_province = { limit = { province_id = 2302 owner = { primary_culture = caladeran } } change_province_name = "Cuzco" state_scope = { change_region_name = "Andes Centrales" } }
-							any_land_province = { limit = { province_id = 2302 owner = { primary_culture = granadan has_country_flag = ARE_new_imperial_capital } } change_province_name = "Toledo de Indias" state_scope = { change_region_name = "Andes Centrales" } }
+					# 2395
+						any_land_province = { limit = { province_id = 2395 owner = { primary_culture = caladeran } } change_province_name = "Entre Ríos" }
+						any_land_province = { limit = { province_id = 2395 owner = { primary_culture = quechua } } change_province_name = "Yanamayu" }
 					
-						# 2303
-							any_land_province = { limit = { province_id = 2303 owner = { primary_culture = caladeran } } change_province_name = "Juliaca" }
-						
-						# 2310
-							any_land_province = { limit = { province_id = 2310 owner = { primary_culture = caladeran } } change_province_name = "Huancané" }
-						
-					# Quito
-						# 2279
-							any_land_province = { limit = { province_id = 2279 owner = { primary_culture = caladeran } } change_province_name = "Quito" state_scope = { change_region_name = "Quito" } }
-							any_land_province = { limit = { province_id = 2279 owner = { primary_culture = quechua } } change_province_name = "Kitu" state_scope = { change_region_name = "Kitumarka" } }
+					# 2353
+						any_land_province = { limit = { province_id = 2353 owner = { primary_culture = caladeran } } change_province_name = "Santos de Floresta" }
+						any_land_province = { limit = { province_id = 2353 owner = { primary_culture = quechua } } change_province_name = "Ch'imeqo" }
+					
+				# Chaco Inglés
+					# 2366
+						any_land_province = { limit = { province_id = 2366 owner = { primary_culture = caladeran } } change_province_name = "Victoria" state_scope = { change_region_name = "Chaco Inglés" } }
+						any_land_province = { limit = { province_id = 2366 owner = { primary_culture = quechua } } change_province_name = "Wichimarka" state_scope = { change_region_name = "Chaku" } }
+						any_land_province = { limit = { province_id = 2366 owner = { OR = { primary_culture = atlantian primary_culture = lotharian primary_culture = amazonian } } } change_province_name = "Fort Clèves" state_scope = { change_region_name = "Chaqueau du Sud" } }
+				
+					# 2367
+						any_land_province = { limit = { province_id = 2367 owner = { primary_culture = caladeran } } change_province_name = "Taguasét" }
+						any_land_province = { limit = { province_id = 2367 owner = { primary_culture = quechua } } change_province_name = "Llankhasacha" }
+						any_land_province = { limit = { province_id = 2367 owner = { OR = { primary_culture = atlantian primary_culture = lotharian primary_culture = amazonian } } } change_province_name = "Forêt Rose" }
+					
+					# 2365
+						any_land_province = { limit = { province_id = 2365 owner = { primary_culture = caladeran } } change_province_name = "Cruz del Tonocoté" }
+						any_land_province = { limit = { province_id = 2365 owner = { primary_culture = quechua } } change_province_name = "Maqumita" }
+						any_land_province = { limit = { province_id = 2365 owner = { OR = { primary_culture = atlantian primary_culture = lotharian primary_culture = amazonian } } } change_province_name = "Penrith" }
+					
+					# 2364
+						any_land_province = { limit = { province_id = 2364 owner = { primary_culture = caladeran } } change_province_name = "Pampa del Chaco" }
+						any_land_province = { limit = { province_id = 2364 owner = { primary_culture = quechua } } change_province_name = "Rukahakuna" }
+						any_land_province = { limit = { province_id = 2364 owner = { OR = { primary_culture = atlantian primary_culture = lotharian primary_culture = amazonian } } } change_province_name = "Beauchâteau" }
+					
+					# 2362
+						any_land_province = { limit = { province_id = 2362 owner = { primary_culture = caladeran } } change_province_name = "Castronuevo" }
+						any_land_province = { limit = { province_id = 2362 owner = { primary_culture = quechua } } change_province_name = "Llasaqa" }
+						any_land_province = { limit = { province_id = 2362 owner = { OR = { primary_culture = atlantian primary_culture = lotharian primary_culture = amazonian } } } change_province_name = "Evéroui" }
+					
+				# Sierras del Collao
+					# 2315
+						any_land_province = { limit = { province_id = 2315 owner = { primary_culture = caladeran } } change_province_name = "Chuquisaca" state_scope = { change_region_name = "Sierras del Collao" } }
+				
+					# 2313
+						any_land_province = { limit = { province_id = 2313 owner = { primary_culture = caladeran } } change_province_name = "Mandacál" }
+					
+					# 3357
+						any_land_province = { limit = { province_id = 3357 owner = { primary_culture = caladeran } } change_province_name = "Pampa Chica" }
+					
+					# 2311
+						any_land_province = { limit = { province_id = 2311 owner = { primary_culture = caladeran } } change_province_name = "Cochabamba" }
+					
+				# Collao Septentrional
+					# 2314
+						any_land_province = { limit = { province_id = 2314 owner = { primary_culture = caladeran } } change_province_name = "Potosí" state_scope = { change_region_name = "Collao Septentrional" } }
+				
+					# 2312
+						any_land_province = { limit = { province_id = 2312 owner = { primary_culture = caladeran } } change_province_name = "Jesús del Collao" }
+					
+					# 2370
+						any_land_province = { limit = { province_id = 2370 owner = { primary_culture = caladeran } } change_province_name = "Chuquiago" }
+					
+					# 2307
+						any_land_province = { limit = { province_id = 2307 owner = { primary_culture = caladeran } } change_province_name = "Santa Cruz" }
+					
+				# Amazonia Sud-Occidental
+					# 2316
+						any_land_province = { limit = { province_id = 2316 owner = { primary_culture = caladeran } } change_province_name = "Caladero" state_scope = { change_region_name = "Amazonia Sud-Occidental" } }
+				
+					# 2319
+						any_land_province = { limit = { province_id = 2319 owner = { primary_culture = caladeran } } change_province_name = "Pampa Amazónica" }
+					
+					# 2301
+						any_land_province = { limit = { province_id = 2301 owner = { primary_culture = caladeran } } change_province_name = "Altillos del Amazonas" }
+					
+					# 2321
+						any_land_province = { limit = { province_id = 2321 owner = { primary_culture = caladeran } } change_province_name = "Riberalta" }
+					
+				# Bahía Salada del Norte
+					# 2304
+						any_land_province = { limit = { province_id = 2304 owner = { primary_culture = caladeran } } change_province_name = "Arequipa" state_scope = { change_region_name = "Bahía Salada del Norte" } }
+				
+					# 2578
+						any_land_province = { limit = { province_id = 2578 owner = { primary_culture = caladeran } } change_province_name = "Tacna" }
+					
+					# 3356
+						any_land_province = { limit = { province_id = 3356 owner = { primary_culture = caladeran } } change_province_name = "Andahuaylas" }
+					
+					# 2371
+						any_land_province = { limit = { province_id = 2371 owner = { primary_culture = caladeran } } change_province_name = "Quilca" }
+					
+					# 2299
+						any_land_province = { limit = { province_id = 2299 owner = { primary_culture = caladeran } } change_province_name = "Huilcashuamán" }
+					
+				# Andes Centrales
+					# 2302
+						any_land_province = { limit = { province_id = 2302 owner = { primary_culture = caladeran } } change_province_name = "Cuzco" state_scope = { change_region_name = "Andes Centrales" } }
+						any_land_province = { limit = { province_id = 2302 owner = { primary_culture = granadan has_country_flag = ARE_new_imperial_capital } } change_province_name = "Toledo de Indias" state_scope = { change_region_name = "Andes Centrales" } }
+				
+					# 2303
+						any_land_province = { limit = { province_id = 2303 owner = { primary_culture = caladeran } } change_province_name = "Juliaca" }
+					
+					# 2310
+						any_land_province = { limit = { province_id = 2310 owner = { primary_culture = caladeran } } change_province_name = "Huancané" }
+					
+				# Quito
+					# 2279
+						any_land_province = { limit = { province_id = 2279 owner = { primary_culture = caladeran } } change_province_name = "Quito" state_scope = { change_region_name = "Quito" } }
+						any_land_province = { limit = { province_id = 2279 owner = { primary_culture = quechua } } change_province_name = "Kitu" state_scope = { change_region_name = "Kitumarka" } }
 
-						# 2283
-							any_land_province = { limit = { province_id = 2283 owner = { primary_culture = caladeran } } change_province_name = "Zamora" }
-							any_land_province = { limit = { province_id = 2283 owner = { primary_culture = quechua } } change_province_name = "Tumipanpa" }
-						
-						# 2284
-							any_land_province = { limit = { province_id = 2284 owner = { primary_culture = caladeran } } change_province_name = "Tena" }
-							any_land_province = { limit = { province_id = 2284 owner = { primary_culture = quechua } } change_province_name = "Humandipa" }
-						
-						# 2282
-							any_land_province = { limit = { province_id = 2282 owner = { primary_culture = caladeran } } change_province_name = "Loja" }
-							any_land_province = { limit = { province_id = 2282 owner = { primary_culture = quechua } } change_province_name = "Cuxipanpa" }
-						
-					# Guayaquil
-						# 2280
-							any_land_province = { limit = { province_id = 2280 owner = { primary_culture = caladeran } } change_province_name = "Guayaquil" state_scope = { change_region_name = "Guayaquil" } }
-							any_land_province = { limit = { province_id = 2280 owner = { primary_culture = quechua } } change_province_name = "Wayakilpa" state_scope = { change_region_name = "Wayamarka" } }
+					# 2283
+						any_land_province = { limit = { province_id = 2283 owner = { primary_culture = caladeran } } change_province_name = "Zamora" }
+						any_land_province = { limit = { province_id = 2283 owner = { primary_culture = quechua } } change_province_name = "Tumipanpa" }
+					
+					# 2284
+						any_land_province = { limit = { province_id = 2284 owner = { primary_culture = caladeran } } change_province_name = "Tena" }
+						any_land_province = { limit = { province_id = 2284 owner = { primary_culture = quechua } } change_province_name = "Humandipa" }
+					
+					# 2282
+						any_land_province = { limit = { province_id = 2282 owner = { primary_culture = caladeran } } change_province_name = "Loja" }
+						any_land_province = { limit = { province_id = 2282 owner = { primary_culture = quechua } } change_province_name = "Cuxipanpa" }
+					
+				# Guayaquil
+					# 2280
+						any_land_province = { limit = { province_id = 2280 owner = { primary_culture = caladeran } } change_province_name = "Guayaquil" state_scope = { change_region_name = "Guayaquil" } }
+						any_land_province = { limit = { province_id = 2280 owner = { primary_culture = quechua } } change_province_name = "Wayakilpa" state_scope = { change_region_name = "Wayamarka" } }
 
-						# 2281
-							any_land_province = { limit = { province_id = 2281 owner = { primary_culture = caladeran } } change_province_name = "Esmeraldas" }
-							any_land_province = { limit = { province_id = 2281 owner = { primary_culture = quechua } } change_province_name = "Yumpumarka" }
-						
-						# 2259
-							any_land_province = { limit = { province_id = 2259 owner = { primary_culture = caladeran } } change_province_name = "Puerto Angomayo" }
-							any_land_province = { limit = { province_id = 2259 owner = { primary_culture = quechua } } change_province_name = "Ankumayu" }
-						
-						# 2287
-							any_land_province = { limit = { province_id = 2287 owner = { primary_culture = caladeran } } change_province_name = "Tumbes" }
-							any_land_province = { limit = { province_id = 2287 owner = { primary_culture = quechua } } change_province_name = "Tumpallaqta" }
-						
-					# Cajamarca
-						# 2290
-							any_land_province = { limit = { province_id = 2290 owner = { primary_culture = caladeran } } change_province_name = "Chan Chan" state_scope = { change_region_name = "Cajamarca" } }
-							any_land_province = { limit = { province_id = 2290 owner = { primary_culture = quechua } } change_province_name = "Ch'an-Ch'an" state_scope = { change_region_name = "Kashamarka" } }
+					# 2281
+						any_land_province = { limit = { province_id = 2281 owner = { primary_culture = caladeran } } change_province_name = "Esmeraldas" }
+						any_land_province = { limit = { province_id = 2281 owner = { primary_culture = quechua } } change_province_name = "Yumpumarka" }
 					
-						# 2292
-							any_land_province = { limit = { province_id = 2292 owner = { primary_culture = caladeran } } change_province_name = "Pacatnamó" }
-							any_land_province = { limit = { province_id = 2292 owner = { primary_culture = quechua } } change_province_name = "Yumpumarka" }
-						
-						# 2291
-							any_land_province = { limit = { province_id = 2291 owner = { primary_culture = caladeran } } change_province_name = "Piura" }
-							any_land_province = { limit = { province_id = 2291 owner = { primary_culture = quechua } } change_province_name = "Sehkellaqta" }
-						
-						# 2298
-							any_land_province = { limit = { province_id = 2298 owner = { primary_culture = caladeran } } change_province_name = "Paramongas" }
-							any_land_province = { limit = { province_id = 2298 owner = { primary_culture = quechua } } change_province_name = "Paramunqa" }
-						
-					# Cundinamarca
-						# 2247
-							any_land_province = { limit = { province_id = 2247 owner = { primary_culture = caladeran } } change_province_name = "Bacatá" state_scope = { change_region_name = "Cundinamarca" } }
-							any_land_province = { limit = { province_id = 2247 owner = { primary_culture = quechua } } change_province_name = "Waqut'a" state_scope = { change_region_name = "Kunturmarka" } }
+					# 2259
+						any_land_province = { limit = { province_id = 2259 owner = { primary_culture = caladeran } } change_province_name = "Puerto Angomayo" }
+						any_land_province = { limit = { province_id = 2259 owner = { primary_culture = quechua } } change_province_name = "Ankumayu" }
 					
-						# 2248
-							any_land_province = { limit = { province_id = 2248 owner = { primary_culture = caladeran } } change_province_name = "Ibagué" }
-							any_land_province = { limit = { province_id = 2248 owner = { primary_culture = quechua } } change_province_name = "Chukipanpa" }
-						
-						# 2249
-							any_land_province = { limit = { province_id = 2249 owner = { primary_culture = caladeran } } change_province_name = "Santiago de Chunsa" }
-							any_land_province = { limit = { province_id = 2249 owner = { primary_culture = quechua } } change_province_name = "Wunsallaqta" }
-						
-						# 2251
-							any_land_province = { limit = { province_id = 2251 owner = { primary_culture = caladeran } } change_province_name = "Bucaramanga" }
-							any_land_province = { limit = { province_id = 2251 owner = { primary_culture = quechua } } change_province_name = "Puqaramanka" }
-						
-						# 3362
-							any_land_province = { limit = { province_id = 3362 owner = { primary_culture = caladeran } } change_province_name = "Cúcuta" }
-							any_land_province = { limit = { province_id = 3362 owner = { primary_culture = quechua } } change_province_name = "Kukuta" }
-						
-					# Antioquía
-						# 2254
-							any_land_province = { limit = { province_id = 2254 owner = { primary_culture = caladeran } } change_province_name = "Cartagena de Indias" state_scope = { change_region_name = "Antioquía" } }
-							any_land_province = { limit = { province_id = 2254 owner = { primary_culture = quechua } } change_province_name = "Qarhashina" state_scope = { change_region_name = "Kunturmarka Qullqa" } }
+					# 2287
+						any_land_province = { limit = { province_id = 2287 owner = { primary_culture = caladeran } } change_province_name = "Tumbes" }
+						any_land_province = { limit = { province_id = 2287 owner = { primary_culture = quechua } } change_province_name = "Tumpallaqta" }
 					
-						# 2252
-							any_land_province = { limit = { province_id = 2252 owner = { primary_culture = caladeran } } change_province_name = "Medellín" }
-							any_land_province = { limit = { province_id = 2252 owner = { primary_culture = quechua } } change_province_name = "Nutibarapa" }
-						
-						# 2255
-							any_land_province = { limit = { province_id = 2255 owner = { primary_culture = caladeran } } change_province_name = "Barranquilla" }
-							any_land_province = { limit = { province_id = 2255 owner = { primary_culture = quechua } } change_province_name = "Qhanqakuna" }
-						
-						# 2250
-							any_land_province = { limit = { province_id = 2250 owner = { primary_culture = caladeran } } change_province_name = "Quimbayas" }
-							any_land_province = { limit = { province_id = 2250 owner = { primary_culture = quechua } } change_province_name = "Quindiyu" }
-						
-						# 3363
-							any_land_province = { limit = { province_id = 3363 owner = { primary_culture = caladeran } } change_province_name = "Zaragoza" }
-							any_land_province = { limit = { province_id = 3363 owner = { primary_culture = quechua } } change_province_name = "Tikiyupa" }
-						
-					# Zulia
-						# 3364
-							any_land_province = { limit = { province_id = 3364 owner = { primary_culture = caladeran } } change_province_name = "Santa Bárbara" state_scope = { change_region_name = "Zulia" } }
-							any_land_province = { limit = { province_id = 3364 owner = { primary_culture = quechua } } change_province_name = "Kinirapa" state_scope = { change_region_name = "Huayumarka" } }
+				# Cajamarca
+					# 2290
+						any_land_province = { limit = { province_id = 2290 owner = { primary_culture = caladeran } } change_province_name = "Chan Chan" state_scope = { change_region_name = "Cajamarca" } }
+						any_land_province = { limit = { province_id = 2290 owner = { primary_culture = quechua } } change_province_name = "Ch'an-Ch'an" state_scope = { change_region_name = "Kashamarka" } }
+				
+					# 2292
+						any_land_province = { limit = { province_id = 2292 owner = { primary_culture = caladeran } } change_province_name = "Pacatnamó" }
+						any_land_province = { limit = { province_id = 2292 owner = { primary_culture = quechua } } change_province_name = "Yumpumarka" }
 					
-						# 2271
-							any_land_province = { limit = { province_id = 2271 owner = { primary_culture = caladeran } } change_province_name = "Valera" }
-							any_land_province = { limit = { province_id = 2271 owner = { primary_culture = quechua } } change_province_name = "Sallqapa" }
-						
-						# 2270
-							any_land_province = { limit = { province_id = 2270 owner = { primary_culture = caladeran } } change_province_name = "Maracaibo" }
-							any_land_province = { limit = { province_id = 2270 owner = { primary_culture = quechua } } change_province_name = "Marrallaqta" }
-						
-						# 3372
-							any_land_province = { limit = { province_id = 3372 owner = { primary_culture = caladeran } } change_province_name = "Riohacha" }
-							any_land_province = { limit = { province_id = 3372 owner = { primary_culture = quechua } } change_province_name = "Kahira" }
-						
-					# Cauca
-						# 2256
-							any_land_province = { limit = { province_id = 2256 owner = { primary_culture = caladeran } } change_province_name = "Cali" state_scope = { change_region_name = "Cauca" } }
-							any_land_province = { limit = { province_id = 2256 owner = { primary_culture = quechua } } change_province_name = "Kali-Kali" state_scope = { change_region_name = "Kawqa" } }
+					# 2291
+						any_land_province = { limit = { province_id = 2291 owner = { primary_culture = caladeran } } change_province_name = "Piura" }
+						any_land_province = { limit = { province_id = 2291 owner = { primary_culture = quechua } } change_province_name = "Sehkellaqta" }
 					
-						# 2257
-							any_land_province = { limit = { province_id = 2257 owner = { primary_culture = caladeran } } change_province_name = "Popayán" }
-							any_land_province = { limit = { province_id = 2257 owner = { primary_culture = quechua } } change_province_name = "Kukunuqu" }
-						
-						# 2258
-							any_land_province = { limit = { province_id = 2258 owner = { primary_culture = caladeran } } change_province_name = "Buenaventura" }
-							any_land_province = { limit = { province_id = 2258 owner = { primary_culture = quechua } } change_province_name = "Tumaku" }
-						
-						# 2253
-							any_land_province = { limit = { province_id = 2253 owner = { primary_culture = caladeran } } change_province_name = "Quibdó" }
-							any_land_province = { limit = { province_id = 2253 owner = { primary_culture = quechua } } change_province_name = "Kibdu" }
-						
-					# Uranpa Mayupura
-						# 2357
-							any_land_province = { limit = { province_id = 2357 owner = { primary_culture = caladeran } } change_province_name = "Antichaku" state_scope = { change_region_name = "Uranpa Mayupura" } }
-							any_land_province = { limit = { province_id = 2357 owner = { OR = { primary_culture = atlantian primary_culture = lotharian primary_culture = amazonian } } } change_province_name = "Saint-Jean-la-Forêt" state_scope = { change_region_name = "Transfleuve" } }
+					# 2298
+						any_land_province = { limit = { province_id = 2298 owner = { primary_culture = caladeran } } change_province_name = "Paramongas" }
+						any_land_province = { limit = { province_id = 2298 owner = { primary_culture = quechua } } change_province_name = "Paramunqa" }
 					
-						# 2359
-							any_land_province = { limit = { province_id = 2359 owner = { primary_culture = caladeran } } change_province_name = "Walayway" }
-							any_land_province = { limit = { province_id = 2359 owner = { OR = { primary_culture = atlantian primary_culture = lotharian primary_culture = amazonian } } } change_province_name = "Outre-Odon" }
-						
-						# 2360
-							any_land_province = { limit = { province_id = 2360 owner = { primary_culture = caladeran } } change_province_name = "Mayupanpa" }
-							any_land_province = { limit = { province_id = 2360 owner = { OR = { primary_culture = atlantian primary_culture = lotharian primary_culture = amazonian } } } change_province_name = "Montaron" }
-						
-					# Rimaq
-						# 2295
-							any_land_province = { limit = { province_id = 2295 owner = { primary_culture = quechua } } change_province_name = "Rimaq" state_scope = { change_region_name = "Rimaq" } }
+				# Cundinamarca
+					# 2247
+						any_land_province = { limit = { province_id = 2247 owner = { primary_culture = caladeran } } change_province_name = "Bacatá" state_scope = { change_region_name = "Cundinamarca" } }
+						any_land_province = { limit = { province_id = 2247 owner = { primary_culture = quechua } } change_province_name = "Waqut'a" state_scope = { change_region_name = "Kunturmarka" } }
+				
+					# 2248
+						any_land_province = { limit = { province_id = 2248 owner = { primary_culture = caladeran } } change_province_name = "Ibagué" }
+						any_land_province = { limit = { province_id = 2248 owner = { primary_culture = quechua } } change_province_name = "Chukipanpa" }
 					
-						# 2297
-							any_land_province = { limit = { province_id = 2297 owner = { primary_culture = quechua } } change_province_name = "Pisqu" }
-						
-						# 2308
-							any_land_province = { limit = { province_id = 2308 owner = { primary_culture = quechua } } change_province_name = "Waytara" }
-						
-					# Wankamarka
-						# 2293
-							any_land_province = { limit = { province_id = 2293 owner = { primary_culture = quechua } } change_province_name = "Hatun Xauxa" state_scope = { change_region_name = "Wankamarka" } }
+					# 2249
+						any_land_province = { limit = { province_id = 2249 owner = { primary_culture = caladeran } } change_province_name = "Santiago de Chunsa" }
+						any_land_province = { limit = { province_id = 2249 owner = { primary_culture = quechua } } change_province_name = "Wunsallaqta" }
 					
-						# 2294
-							any_land_province = { limit = { province_id = 2294 owner = { primary_culture = quechua } } change_province_name = "Sach'apuyupa" }
-						
-						# 2296
-							any_land_province = { limit = { province_id = 2296 owner = { primary_culture = quechua } } change_province_name = "Wankayuq" }
-						
-				# Arcadia
-					# Laofeng
-						# 106
-							any_land_province = { limit = { province_id = 106 owner = { primary_culture = qingqiuan } } change_province_name = "Longshan" state_scope = { change_region_name = "Laofeng" } }
-							any_land_province = { limit = { province_id = 106 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Nouvelle Paris" state_scope = { change_region_name = "Minchichanes Nébraskies" } }
+					# 2251
+						any_land_province = { limit = { province_id = 2251 owner = { primary_culture = caladeran } } change_province_name = "Bucaramanga" }
+						any_land_province = { limit = { province_id = 2251 owner = { primary_culture = quechua } } change_province_name = "Puqaramanka" }
 					
-						# 109
-							any_land_province = { limit = { province_id = 109 owner = { primary_culture = qingqiuan } } change_province_name = "Laofeng" }
-							any_land_province = { limit = { province_id = 109 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Aix-le-Manitou" }
-						
-						# 110
-							any_land_province = { limit = { province_id = 110 owner = { primary_culture = qingqiuan } } change_province_name = "Pingjiang" }
-							any_land_province = { limit = { province_id = 110 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Cheyenne" }
-						
-					# Haut-Oumessourita
-						# 29
-							any_land_province = { limit = { province_id = 29 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Chutes Pieds Noirs" state_scope = { change_region_name = "Haut-Oumessourita" } }
+					# 3362
+						any_land_province = { limit = { province_id = 3362 owner = { primary_culture = caladeran } } change_province_name = "Cúcuta" }
+						any_land_province = { limit = { province_id = 3362 owner = { primary_culture = quechua } } change_province_name = "Kukuta" }
 					
-						# 113
-							any_land_province = { limit = { province_id = 113 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Nouvelle Francfort" }
-						
-						# 112
-							any_land_province = { limit = { province_id = 112 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Pierre-Jaune" }
-						
-						# 116
-							any_land_province = { limit = { province_id = 116 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Grand Mouflon" }
-						
-						# 115
-							any_land_province = { limit = { province_id = 115 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Fort Leclère" }
-						
-					# Mer Morte des Minchitchanes
-						# 94
-							any_land_province = { limit = { province_id = 94 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Jéricho d'Arcadie" state_scope = { change_region_name = "Mer Morte des Minchitchanes" } }
-							any_land_province = { limit = { province_id = 94 owner = { primary_culture = lusitanian } } change_province_name = "Salinas do Norte" state_scope = { change_region_name = "Teguaiu" } }
+				# Antioquía
+					# 2254
+						any_land_province = { limit = { province_id = 2254 owner = { primary_culture = caladeran } } change_province_name = "Cartagena de Indias" state_scope = { change_region_name = "Antioquía" } }
+						any_land_province = { limit = { province_id = 2254 owner = { primary_culture = quechua } } change_province_name = "Qarhashina" state_scope = { change_region_name = "Kunturmarka Qullqa" } }
+				
+					# 2252
+						any_land_province = { limit = { province_id = 2252 owner = { primary_culture = caladeran } } change_province_name = "Medellín" }
+						any_land_province = { limit = { province_id = 2252 owner = { primary_culture = quechua } } change_province_name = "Nutibarapa" }
 					
-						# 95
-							any_land_province = { limit = { province_id = 95 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Charleville" }
-							any_land_province = { limit = { province_id = 95 owner = { primary_culture = lusitanian } } change_province_name = "Quautitlã da Serra" }
-						
-						# 17
-							any_land_province = { limit = { province_id = 17 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Mont-Blanc" }
-							any_land_province = { limit = { province_id = 17 owner = { primary_culture = lusitanian } } change_province_name = "Serra dos Timpanoguês" }
-						
-						# 3391
-							any_land_province = { limit = { province_id = 3391 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Nouvelle Guérande" }
-							any_land_province = { limit = { province_id = 3391 owner = { primary_culture = lusitanian } } change_province_name = "Cidade do Copalha" }
-						
-						# 111
-							any_land_province = { limit = { province_id = 111 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Grande Vallée" }
-							any_land_province = { limit = { province_id = 111 owner = { primary_culture = lusitanian } } change_province_name = "Vale Grande" }
-						
-						# 107
-							any_land_province = { limit = { province_id = 107 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Le Bassin" }
-							any_land_province = { limit = { province_id = 107 owner = { primary_culture = lusitanian } } change_province_name = "Desterro" }
-						
-					# Rivière Rouge
-						# 97
-							any_land_province = { limit = { province_id = 97 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Ville-Vermeille" state_scope = { change_region_name = "Rivière Rouge" } }
-							any_land_province = { limit = { province_id = 97 owner = { primary_culture = lusitanian } } change_province_name = "Vermelhópolis" state_scope = { change_region_name = "Rio Vermelho" } }
+					# 2255
+						any_land_province = { limit = { province_id = 2255 owner = { primary_culture = caladeran } } change_province_name = "Barranquilla" }
+						any_land_province = { limit = { province_id = 2255 owner = { primary_culture = quechua } } change_province_name = "Qhanqakuna" }
 					
-						# 98
-							any_land_province = { limit = { province_id = 98 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "St Pierre du Yichengue" }
-							any_land_province = { limit = { province_id = 98 owner = { primary_culture = lusitanian } } change_province_name = "São Pedro" }
-						
-						# 99
-							any_land_province = { limit = { province_id = 99 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Sainte Rita du Cobré" }
-							any_land_province = { limit = { province_id = 99 owner = { primary_culture = lusitanian } } change_province_name = "Santa Rita do Cobre" }
-						
-						# 108
-							any_land_province = { limit = { province_id = 108 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Déchefiladérèches" }
-							any_land_province = { limit = { province_id = 108 owner = { primary_culture = lusitanian } } change_province_name = "Desfiladeiros" }
-						
-					# Bahia do Oeste
-						# 89
-							any_land_province = { limit = { province_id = 89 owner = { primary_culture = lusitanian } } change_province_name = "São Miguel" state_scope = { change_region_name = "Bahia do Oeste" } }
+					# 2250
+						any_land_province = { limit = { province_id = 2250 owner = { primary_culture = caladeran } } change_province_name = "Quimbayas" }
+						any_land_province = { limit = { province_id = 2250 owner = { primary_culture = quechua } } change_province_name = "Quindiyu" }
 					
-						# 96
-							any_land_province = { limit = { province_id = 96 owner = { primary_culture = lusitanian } } change_province_name = "Sertão do Mojave" }
-						
-						# 3375
-							any_land_province = { limit = { province_id = 3375 owner = { primary_culture = lusitanian } } change_province_name = "Palmeiras" }
-						
-						# 3374
-							any_land_province = { limit = { province_id = 3374 owner = { primary_culture = lusitanian } } change_province_name = "Santa Catarina" }
-						
-				# Europe
-					# Epirus
-						# 824
-							any_land_province = { limit = { province_id = 824 owner = { primary_culture = greek } } change_province_name = "Ioannina" }
-							any_land_province = { limit = { province_id = 824 owner = { OR = { primary_culture = turkish primary_culture = albanian } } } change_province_name = "Janina" }
-					# Thrace
-						# 830
-							any_land_province = { limit = { province_id = 830 owner = { primary_culture = greek } } change_province_name = "Alexandrople" }
-							any_land_province = { limit = { province_id = 830 owner = { primary_culture = turkish } } change_province_name = "Dedeagatch" }
-						
-						# 828
-							any_land_province = { limit = { province_id = 828 owner = { primary_culture = greek } } change_province_name = "Adrianople" }
-							any_land_province = { limit = { province_id = 828 owner = { primary_culture = turkish } } change_province_name = "Edirne" }
-						
-						# 858
-							any_land_province = { limit = { province_id = 858 owner = { primary_culture = greek } } change_province_name = "Saranta Ekklesies" }
-							any_land_province = { limit = { province_id = 858 owner = { primary_culture = turkish } } change_province_name = "Kirklareli" }
-						
-						# 859
-							any_land_province = { limit = { province_id = 859 owner = { primary_culture = greek } } change_province_name = "Kallipolis" }
-							any_land_province = { limit = { province_id = 859 owner = { primary_culture = turkish } } change_province_name = "Gallipoli" }
-					# Istanbul
-						# 860
-							any_land_province = { limit = { province_id = 860 owner = { primary_culture = greek } } change_province_name = "Constantinople" state_scope = { change_region_name = "Byzantium" } }
-							any_land_province = { limit = { province_id = 860 owner = { primary_culture = turkish } } change_province_name = "Istanbul" state_scope = { change_region_name = "Istanbul Region" } }
+					# 3363
+						any_land_province = { limit = { province_id = 3363 owner = { primary_culture = caladeran } } change_province_name = "Zaragoza" }
+						any_land_province = { limit = { province_id = 3363 owner = { primary_culture = quechua } } change_province_name = "Tikiyupa" }
 					
-						# 861
-							any_land_province = { limit = { province_id = 861 owner = { primary_culture = greek } } change_province_name = "Chrysopolis" }
-							any_land_province = { limit = { province_id = 861 owner = { primary_culture = turkish } } change_province_name = "Üsküdar" }
-						
-					# Aydin
-						# 869
-							any_land_province = { limit = { province_id = 869 owner = { primary_culture = greek } } change_province_name = "Smyrna" state_scope = { change_region_name = "Ionia" } }
-							any_land_province = { limit = { province_id = 869 owner = { primary_culture = turkish } } change_province_name = "Izmir" state_scope = { change_region_name = "Aydin" } }
+				# Zulia
+					# 3364
+						any_land_province = { limit = { province_id = 3364 owner = { primary_culture = caladeran } } change_province_name = "Santa Bárbara" state_scope = { change_region_name = "Zulia" } }
+						any_land_province = { limit = { province_id = 3364 owner = { primary_culture = quechua } } change_province_name = "Kinirapa" state_scope = { change_region_name = "Huayumarka" } }
+				
+					# 2271
+						any_land_province = { limit = { province_id = 2271 owner = { primary_culture = caladeran } } change_province_name = "Valera" }
+						any_land_province = { limit = { province_id = 2271 owner = { primary_culture = quechua } } change_province_name = "Sallqapa" }
 					
-						# 872
-							any_land_province = { limit = { province_id = 872 owner = { primary_culture = greek } } change_province_name = "Milas" }
-							any_land_province = { limit = { province_id = 872 owner = { primary_culture = turkish } } change_province_name = "Mugla" }
-						
-					# Hudavendigar
-						# 863
-							any_land_province = { limit = { province_id = 863 owner = { primary_culture = greek } } change_province_name = "Prusa" state_scope = { change_region_name = "Nicaea" } }
-							any_land_province = { limit = { province_id = 863 owner = { primary_culture = turkish } } change_province_name = "Bursa" state_scope = { change_region_name = "Hudavendigar" } }
-						
-						# 864
-							any_land_province = { limit = { province_id = 864 owner = { primary_culture = greek } } change_province_name = "Paleokastro" }
-							any_land_province = { limit = { province_id = 864 owner = { primary_culture = turkish } } change_province_name = "Balikesir" }
-						
-						# 865
-							any_land_province = { limit = { province_id = 865 owner = { primary_culture = greek } } change_province_name = "Dardanellia" }
-							any_land_province = { limit = { province_id = 865 owner = { primary_culture = turkish } } change_province_name = "Canakkale" }
-						
-						# 862
-							any_land_province = { limit = { province_id = 862 owner = { primary_culture = greek } } change_province_name = "Nicomedia" }
-							any_land_province = { limit = { province_id = 862 owner = { primary_culture = turkish } } change_province_name = "Izmit" }
-						
-					# Pontus
-						# 880
-							any_land_province = { limit = { province_id = 880 owner = { primary_culture = greek } } change_province_name = "Kastra Komnenon" }
-							any_land_province = { limit = { province_id = 880 owner = { primary_culture = turkish } } change_province_name = "Kastamonu" }
-						
-						# 881
-							any_land_province = { limit = { province_id = 881 owner = { primary_culture = greek } } change_province_name = "Hadrianopolis" }
-							any_land_province = { limit = { province_id = 881 owner = { primary_culture = turkish } } change_province_name = "Bolu" }
-						
-						# 882
-							any_land_province = { limit = { province_id = 882 owner = { primary_culture = greek } } change_province_name = "Trapezounda" }
-							any_land_province = { limit = { province_id = 882 owner = { primary_culture = turkish } } change_province_name = "Trabzon" }
-						
-						# 883
-							any_land_province = { limit = { province_id = 883 owner = { primary_culture = greek } } change_province_name = "Sinope" }
-							any_land_province = { limit = { province_id = 883 owner = { primary_culture = turkish } } change_province_name = "Sinop" }
-						
-						# 884
-							any_land_province = { limit = { province_id = 884 owner = { primary_culture = greek } } change_province_name = "Kerasous" }
-							any_land_province = { limit = { province_id = 884 owner = { primary_culture = turkish } } change_province_name = "Giresun" }
-						
+					# 2270
+						any_land_province = { limit = { province_id = 2270 owner = { primary_culture = caladeran } } change_province_name = "Maracaibo" }
+						any_land_province = { limit = { province_id = 2270 owner = { primary_culture = quechua } } change_province_name = "Marrallaqta" }
+					
+					# 3372
+						any_land_province = { limit = { province_id = 3372 owner = { primary_culture = caladeran } } change_province_name = "Riohacha" }
+						any_land_province = { limit = { province_id = 3372 owner = { primary_culture = quechua } } change_province_name = "Kahira" }
+					
+				# Cauca
+					# 2256
+						any_land_province = { limit = { province_id = 2256 owner = { primary_culture = caladeran } } change_province_name = "Cali" state_scope = { change_region_name = "Cauca" } }
+						any_land_province = { limit = { province_id = 2256 owner = { primary_culture = quechua } } change_province_name = "Kali-Kali" state_scope = { change_region_name = "Kawqa" } }
+				
+					# 2257
+						any_land_province = { limit = { province_id = 2257 owner = { primary_culture = caladeran } } change_province_name = "Popayán" }
+						any_land_province = { limit = { province_id = 2257 owner = { primary_culture = quechua } } change_province_name = "Kukunuqu" }
+					
+					# 2258
+						any_land_province = { limit = { province_id = 2258 owner = { primary_culture = caladeran } } change_province_name = "Buenaventura" }
+						any_land_province = { limit = { province_id = 2258 owner = { primary_culture = quechua } } change_province_name = "Tumaku" }
+					
+					# 2253
+						any_land_province = { limit = { province_id = 2253 owner = { primary_culture = caladeran } } change_province_name = "Quibdó" }
+						any_land_province = { limit = { province_id = 2253 owner = { primary_culture = quechua } } change_province_name = "Kibdu" }
+					
+				# Uranpa Mayupura
+					# 2357
+						any_land_province = { limit = { province_id = 2357 owner = { primary_culture = caladeran } } change_province_name = "Antichaku" state_scope = { change_region_name = "Uranpa Mayupura" } }
+						any_land_province = { limit = { province_id = 2357 owner = { OR = { primary_culture = atlantian primary_culture = lotharian primary_culture = amazonian } } } change_province_name = "Saint-Jean-la-Forêt" state_scope = { change_region_name = "Transfleuve" } }
+				
+					# 2359
+						any_land_province = { limit = { province_id = 2359 owner = { primary_culture = caladeran } } change_province_name = "Walayway" }
+						any_land_province = { limit = { province_id = 2359 owner = { OR = { primary_culture = atlantian primary_culture = lotharian primary_culture = amazonian } } } change_province_name = "Outre-Odon" }
+					
+					# 2360
+						any_land_province = { limit = { province_id = 2360 owner = { primary_culture = caladeran } } change_province_name = "Mayupanpa" }
+						any_land_province = { limit = { province_id = 2360 owner = { OR = { primary_culture = atlantian primary_culture = lotharian primary_culture = amazonian } } } change_province_name = "Montaron" }
+					
+				# Rimaq
+					# 2295
+						any_land_province = { limit = { province_id = 2295 owner = { primary_culture = quechua } } change_province_name = "Rimaq" state_scope = { change_region_name = "Rimaq" } }
+				
+					# 2297
+						any_land_province = { limit = { province_id = 2297 owner = { primary_culture = quechua } } change_province_name = "Pisqu" }
+					
+					# 2308
+						any_land_province = { limit = { province_id = 2308 owner = { primary_culture = quechua } } change_province_name = "Waytara" }
+					
+				# Wankamarka
+					# 2293
+						any_land_province = { limit = { province_id = 2293 owner = { primary_culture = quechua } } change_province_name = "Hatun Xauxa" state_scope = { change_region_name = "Wankamarka" } }
+				
+					# 2294
+						any_land_province = { limit = { province_id = 2294 owner = { primary_culture = quechua } } change_province_name = "Sach'apuyupa" }
+					
+					# 2296
+						any_land_province = { limit = { province_id = 2296 owner = { primary_culture = quechua } } change_province_name = "Wankayuq" }
+					
+			# Arcadia
+				# Laofeng
+					# 106
+						any_land_province = { limit = { province_id = 106 owner = { primary_culture = qingqiuan } } change_province_name = "Longshan" state_scope = { change_region_name = "Laofeng" } }
+						any_land_province = { limit = { province_id = 106 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Nouvelle Paris" state_scope = { change_region_name = "Minchichanes Nébraskies" } }
+				
+					# 109
+						any_land_province = { limit = { province_id = 109 owner = { primary_culture = qingqiuan } } change_province_name = "Laofeng" }
+						any_land_province = { limit = { province_id = 109 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Aix-le-Manitou" }
+					
+					# 110
+						any_land_province = { limit = { province_id = 110 owner = { primary_culture = qingqiuan } } change_province_name = "Pingjiang" }
+						any_land_province = { limit = { province_id = 110 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Cheyenne" }
+					
+				# Haut-Oumessourita
+					# 29
+						any_land_province = { limit = { province_id = 29 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Chutes Pieds Noirs" state_scope = { change_region_name = "Haut-Oumessourita" } }
+				
+					# 113
+						any_land_province = { limit = { province_id = 113 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Nouvelle Francfort" }
+					
+					# 112
+						any_land_province = { limit = { province_id = 112 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Pierre-Jaune" }
+					
+					# 116
+						any_land_province = { limit = { province_id = 116 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Grand Mouflon" }
+					
+					# 115
+						any_land_province = { limit = { province_id = 115 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Fort Leclère" }
+					
+				# Mer Morte des Minchitchanes
+					# 94
+						any_land_province = { limit = { province_id = 94 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Jéricho d'Arcadie" state_scope = { change_region_name = "Mer Morte des Minchitchanes" } }
+						any_land_province = { limit = { province_id = 94 owner = { primary_culture = lusitanian } } change_province_name = "Salinas do Norte" state_scope = { change_region_name = "Teguaiu" } }
+				
+					# 95
+						any_land_province = { limit = { province_id = 95 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Charleville" }
+						any_land_province = { limit = { province_id = 95 owner = { primary_culture = lusitanian } } change_province_name = "Quautitlã da Serra" }
+					
+					# 17
+						any_land_province = { limit = { province_id = 17 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Mont-Blanc" }
+						any_land_province = { limit = { province_id = 17 owner = { primary_culture = lusitanian } } change_province_name = "Serra dos Timpanoguês" }
+					
+					# 3391
+						any_land_province = { limit = { province_id = 3391 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Nouvelle Guérande" }
+						any_land_province = { limit = { province_id = 3391 owner = { primary_culture = lusitanian } } change_province_name = "Cidade do Copalha" }
+					
+					# 111
+						any_land_province = { limit = { province_id = 111 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Grande Vallée" }
+						any_land_province = { limit = { province_id = 111 owner = { primary_culture = lusitanian } } change_province_name = "Vale Grande" }
+					
+					# 107
+						any_land_province = { limit = { province_id = 107 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Le Bassin" }
+						any_land_province = { limit = { province_id = 107 owner = { primary_culture = lusitanian } } change_province_name = "Desterro" }
+					
+				# Rivière Rouge
+					# 97
+						any_land_province = { limit = { province_id = 97 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Ville-Vermeille" state_scope = { change_region_name = "Rivière Rouge" } }
+						any_land_province = { limit = { province_id = 97 owner = { primary_culture = lusitanian } } change_province_name = "Vermelhópolis" state_scope = { change_region_name = "Rio Vermelho" } }
+				
+					# 98
+						any_land_province = { limit = { province_id = 98 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "St Pierre du Yichengue" }
+						any_land_province = { limit = { province_id = 98 owner = { primary_culture = lusitanian } } change_province_name = "São Pedro" }
+					
+					# 99
+						any_land_province = { limit = { province_id = 99 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Sainte Rita du Cobré" }
+						any_land_province = { limit = { province_id = 99 owner = { primary_culture = lusitanian } } change_province_name = "Santa Rita do Cobre" }
+					
+					# 108
+						any_land_province = { limit = { province_id = 108 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Déchefiladérèches" }
+						any_land_province = { limit = { province_id = 108 owner = { primary_culture = lusitanian } } change_province_name = "Desfiladeiros" }
+					
+				# Bahia do Oeste
+					# 89
+						any_land_province = { limit = { province_id = 89 owner = { primary_culture = lusitanian } } change_province_name = "São Miguel" state_scope = { change_region_name = "Bahia do Oeste" } }
+				
+					# 96
+						any_land_province = { limit = { province_id = 96 owner = { primary_culture = lusitanian } } change_province_name = "Sertão do Mojave" }
+					
+					# 3375
+						any_land_province = { limit = { province_id = 3375 owner = { primary_culture = lusitanian } } change_province_name = "Palmeiras" }
+					
+					# 3374
+						any_land_province = { limit = { province_id = 3374 owner = { primary_culture = lusitanian } } change_province_name = "Santa Catarina" }
+					
+			# Europe
+				# Epirus
+					# 824
+						any_land_province = { limit = { province_id = 824 owner = { primary_culture = greek } } change_province_name = "Ioannina" }
+						any_land_province = { limit = { province_id = 824 owner = { OR = { primary_culture = turkish primary_culture = albanian } } } change_province_name = "Janina" }
+				# Thrace
+					# 830
+						any_land_province = { limit = { province_id = 830 owner = { primary_culture = greek } } change_province_name = "Alexandrople" }
+						any_land_province = { limit = { province_id = 830 owner = { primary_culture = turkish } } change_province_name = "Dedeagatch" }
+					
+					# 828
+						any_land_province = { limit = { province_id = 828 owner = { primary_culture = greek } } change_province_name = "Adrianople" }
+						any_land_province = { limit = { province_id = 828 owner = { primary_culture = turkish } } change_province_name = "Edirne" }
+					
+					# 858
+						any_land_province = { limit = { province_id = 858 owner = { primary_culture = greek } } change_province_name = "Saranta Ekklesies" }
+						any_land_province = { limit = { province_id = 858 owner = { primary_culture = turkish } } change_province_name = "Kirklareli" }
+					
+					# 859
+						any_land_province = { limit = { province_id = 859 owner = { primary_culture = greek } } change_province_name = "Kallipolis" }
+						any_land_province = { limit = { province_id = 859 owner = { primary_culture = turkish } } change_province_name = "Gallipoli" }
+				# Istanbul
+					# 860
+						any_land_province = { limit = { province_id = 860 owner = { primary_culture = greek } } change_province_name = "Constantinople" state_scope = { change_region_name = "Byzantium" } }
+						any_land_province = { limit = { province_id = 860 owner = { primary_culture = turkish } } change_province_name = "Istanbul" state_scope = { change_region_name = "Istanbul Region" } }
+				
+					# 861
+						any_land_province = { limit = { province_id = 861 owner = { primary_culture = greek } } change_province_name = "Chrysopolis" }
+						any_land_province = { limit = { province_id = 861 owner = { primary_culture = turkish } } change_province_name = "Üsküdar" }
+					
+				# Aydin
+					# 869
+						any_land_province = { limit = { province_id = 869 owner = { primary_culture = greek } } change_province_name = "Smyrna" state_scope = { change_region_name = "Ionia" } }
+						any_land_province = { limit = { province_id = 869 owner = { primary_culture = turkish } } change_province_name = "Izmir" state_scope = { change_region_name = "Aydin" } }
+				
+					# 872
+						any_land_province = { limit = { province_id = 872 owner = { primary_culture = greek } } change_province_name = "Milas" }
+						any_land_province = { limit = { province_id = 872 owner = { primary_culture = turkish } } change_province_name = "Mugla" }
+					
+				# Hudavendigar
+					# 863
+						any_land_province = { limit = { province_id = 863 owner = { primary_culture = greek } } change_province_name = "Prusa" state_scope = { change_region_name = "Nicaea" } }
+						any_land_province = { limit = { province_id = 863 owner = { primary_culture = turkish } } change_province_name = "Bursa" state_scope = { change_region_name = "Hudavendigar" } }
+					
+					# 864
+						any_land_province = { limit = { province_id = 864 owner = { primary_culture = greek } } change_province_name = "Paleokastro" }
+						any_land_province = { limit = { province_id = 864 owner = { primary_culture = turkish } } change_province_name = "Balikesir" }
+					
+					# 865
+						any_land_province = { limit = { province_id = 865 owner = { primary_culture = greek } } change_province_name = "Dardanellia" }
+						any_land_province = { limit = { province_id = 865 owner = { primary_culture = turkish } } change_province_name = "Canakkale" }
+					
+					# 862
+						any_land_province = { limit = { province_id = 862 owner = { primary_culture = greek } } change_province_name = "Nicomedia" }
+						any_land_province = { limit = { province_id = 862 owner = { primary_culture = turkish } } change_province_name = "Izmit" }
+					
+				# Pontus
+					# 880
+						any_land_province = { limit = { province_id = 880 owner = { primary_culture = greek } } change_province_name = "Kastra Komnenon" }
+						any_land_province = { limit = { province_id = 880 owner = { primary_culture = turkish } } change_province_name = "Kastamonu" }
+					
+					# 881
+						any_land_province = { limit = { province_id = 881 owner = { primary_culture = greek } } change_province_name = "Hadrianopolis" }
+						any_land_province = { limit = { province_id = 881 owner = { primary_culture = turkish } } change_province_name = "Bolu" }
+					
+					# 882
+						any_land_province = { limit = { province_id = 882 owner = { primary_culture = greek } } change_province_name = "Trapezounda" }
+						any_land_province = { limit = { province_id = 882 owner = { primary_culture = turkish } } change_province_name = "Trabzon" }
+					
+					# 883
+						any_land_province = { limit = { province_id = 883 owner = { primary_culture = greek } } change_province_name = "Sinope" }
+						any_land_province = { limit = { province_id = 883 owner = { primary_culture = turkish } } change_province_name = "Sinop" }
+					
+					# 884
+						any_land_province = { limit = { province_id = 884 owner = { primary_culture = greek } } change_province_name = "Kerasous" }
+						any_land_province = { limit = { province_id = 884 owner = { primary_culture = turkish } } change_province_name = "Giresun" }
+					
 	}
 }
