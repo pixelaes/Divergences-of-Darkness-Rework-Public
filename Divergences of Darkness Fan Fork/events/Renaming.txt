@@ -993,6 +993,30 @@ country_event = {
 					# 3374
 						any_land_province = { limit = { province_id = 3374 owner = { primary_culture = lusitanian } } change_province_name = "Santa Catarina" }
 					
+				# Apacheria
+					# 129
+						any_land_province = { limit = { province_id = 129 owner = { OR = { primary_culture = plantagenian tag = ARC } } } change_province_name = "Saint Georges" state_scope = { change_region_name = " Cymrie" } }
+						any_land_province = { limit = { province_id = 129 owner = { OR = { primary_culture = lusitanian primary_culture = mexican } } } change_province_name = "São Jorge" state_scope = { change_region_name = " Apacheria" } }
+
+					# 133
+						any_land_province = { limit = { province_id = 133 owner = { OR = { primary_culture = plantagenian tag = ARC } } } change_province_name = "Villeverte" }
+						any_land_province = { limit = { province_id = 133 owner = { OR = { primary_culture = lusitanian primary_culture = mexican } } } change_province_name = "Vila Verde" }
+
+					# 134
+						any_land_province = { limit = { province_id = 134 owner = { OR = { primary_culture = plantagenian tag = ARC } } } change_province_name = "Tudorie" }
+						any_land_province = { limit = { province_id = 134 owner = { OR = { primary_culture = lusitanian primary_culture = mexican } } } change_province_name = "Vitoria" }
+						
+					# 135
+						any_land_province = { limit = { province_id = 135 owner = { OR = { primary_culture = plantagenian tag = ARC } } } change_province_name = "Fort Louis" }
+						any_land_province = { limit = { province_id = 135 owner = { OR = { primary_culture = lusitanian primary_culture = mexican } } } change_province_name = "Campo Largo" }
+						
+					# 105
+				
+				# Akansa
+					# 130
+						any_land_province = { limit = { province_id = 130 owner = { OR = { primary_culture = plantagenian tag = ARC } } } change_province_name = "Sainte-Croix" }
+						any_land_province = { limit = { province_id = 130 owner = { OR = { primary_culture = lusitanian primary_culture = mexican } } } change_province_name = "Cruzes" }
+			
 			# Europe
 				# Epirus
 					# 824
@@ -1296,14 +1320,24 @@ country_event = {
 						any_land_province = { limit = { province_id = 1657 owner = { primary_culture = japanese NOT = { has_global_flag = taikyo_japan } } }change_province_name = "Kyoto" }
 						any_land_province = { limit = { province_id = 1657 owner = { primary_culture = japanese has_global_flag = taikyo_japan } } change_province_name = "Taikyo" }
 
-
-
-
 			# Africa
 				# South Africa
 					# 2087 - bit weird, but ig the tag check works - might need to tie more directly to the decision in Batavia.txt
 						any_land_province = { limit = { province_id = 2087 owner = { tag = SAF has_global_flag = renaming_flag_2087_kaapstad } } change_province_name = "Kaapstad" }
 						any_land_province = { limit = { province_id = 2087 owner = { primary_culture = burgundian } } change_province_name = "Ville du Cap" }
+				# Ivory Coast
+					# 1892
+						any_land_province = { limit = { province_id = 1892 owner = { NOT = { capital_scope = { continent = africa } } has_global_flag = ivory_coast_organized } } change_province_name = "Abidjan" }
+						any_land_province = { limit = { province_id = 1892 owner = { OR = { capital_scope = { continent = africa } AND = { NOT = { capital_scope = { continent = africa } } NOT = { has_global_flag = ivory_coast_organized } } } } }change_province_name = "Bandama" }
+				# Chad
+					# 1818
+						any_land_province = { limit = { province_id = 1818 owner = { NOT = { capital_scope = { continent = africa } } has_global_flag = chad_organized } } change_province_name = "Massenya" }
+						any_land_province = { limit = { province_id = 1818 owner = { OR = { capital_scope = { continent = africa } AND = { NOT = { capital_scope = { continent = africa } } NOT = { has_global_flag = chad_organized } } } } } change_province_name = "Maroua" }
+				# Chad
+					# 2019
+						any_land_province = { limit = { province_id = 2019 owner = { NOT = { capital_scope = { continent = africa } } has_global_flag = uganda_organized } } change_province_name = "Kampala" }
+						any_land_province = { limit = { province_id = 2019 owner = { OR = { capital_scope = { continent = africa } AND = { NOT = { capital_scope = { continent = africa } } NOT = { has_global_flag = uganda_organized } } } } } change_province_name = "Entebbe" }
+
 
 
 	}
