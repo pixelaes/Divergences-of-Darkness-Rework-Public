@@ -687,7 +687,7 @@ country_event = {
 					
 				# Aureliana
 					# 2264
-						any_land_province = { limit = { province_id = 2296 owner = { primary_culture = quechua } } change_province_name = "La Guaira" }
+						any_land_province = { limit = { province_id = 2296 owner = { OR = { primary_culture = quechua overlord = { primary_culture = quechua } } } } change_province_name = "La Guaira" }
 
 			# Arcadia
 				# Laofeng
@@ -946,7 +946,31 @@ country_event = {
 					# 1039
 						any_land_province = { limit = { province_id = 1039 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Saraj nad Idelem" }
 					
+				# Brabant
+					# 390
+						any_land_province = { limit = { province_id = 390 owner = { tag = NET } } change_province_name = "Antwerp" }
+						any_land_province = { limit = { province_id = 390 owner = { OR = { tag = BRG tag = PBG } } } change_province_name = "Anvers" }
 					
+					# 387
+						any_land_province = { limit = { province_id = 387 owner = { tag = NET } } change_province_name = "Brussel" }
+						any_land_province = { limit = { province_id = 387 owner = { OR = { tag = BRG tag = PBG } } } change_province_name = "Bruxelles" }
+
+				# Flandres
+					# 389
+						any_land_province = { limit = { province_id = 389 owner = { tag = NET } } change_province_name = "Ghent" }
+						any_land_province = { limit = { province_id = 389 owner = { OR = { tag = BRG tag = PBG } } } change_province_name = "Gand" }
+					
+					# 393
+						any_land_province = { limit = { province_id = 393 owner = { tag = NET } } change_province_name = "Doornik" }
+						any_land_province = { limit = { province_id = 393 owner = { OR = { tag = BRG tag = PBG } } } change_province_name = "Tournai" }
+					
+					# 388
+						any_land_province = { limit = { province_id = 388 owner = { tag = NET } } change_province_name = "Brugge" }
+						any_land_province = { limit = { province_id = 388 owner = { OR = { tag = BRG tag = PBG } } } change_province_name = "Bruges" }
+					
+					# 2636
+						any_land_province = { limit = { province_id = 2636 owner = { tag = NET } } change_province_name = "Dunkirk" }
+						any_land_province = { limit = { province_id = 2636 owner = { OR = { tag = BRG tag = PBG } } } change_province_name = "Dunkerque" }
 
 			# Africa
 				# South Africa
