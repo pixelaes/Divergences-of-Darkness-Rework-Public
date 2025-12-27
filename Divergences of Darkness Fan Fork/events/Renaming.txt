@@ -690,6 +690,216 @@ country_event = {
 						any_land_province = { limit = { province_id = 2296 owner = { OR = { primary_culture = quechua overlord = { primary_culture = quechua } } } } change_province_name = "La Guaira" }
 
 			# Arcadia
+				# Ganigialand
+					# 178
+						any_land_province = { limit = { province_id = 178 owner = { primary_culture = septiman has_country_flag = SKR_this_is_gaming } } change_province_name = "Nieuw Mascantier" state_scope = { change_region_name = "Nouvele Zelande" } }
+						any_land_province = { limit = { province_id = 178 owner = { OR = { primary_culture = iroquois primary_culture = southern_algonquin primary_culture = algonquin AND = { primary_culture = septiman NOT = { has_country_flag = SKR_this_is_gaming } } } } } change_province_name = "Onenga" state_scope = { change_region_name = "Ganigialand" } }
+						any_land_province = { limit = { province_id = 178 owner = { primary_culture = plantagenian has_global_flag = ganigialand_integrated } } change_province_name = "Fort Somerset" state_scope = { change_region_name = "Iroquoisie" } }
+						any_land_province = { limit = { province_id = 178 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = ganigialand_integrated } } change_province_name = "Fort Mikkelsen" state_scope = { change_region_name = "Elverland" } }
+						any_land_province = { limit = { province_id = 178 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = ganigialand_integrated } } change_province_name = "Ondanger" state_scope = { change_region_name = "Ganigialand" } }
+
+					# 228
+						any_land_province = { limit = { province_id = 228 owner = { primary_culture = septiman has_country_flag = SKR_this_is_gaming } } change_province_name = "Zeestat" }
+						any_land_province = { limit = { province_id = 228 owner = { OR = { primary_culture = iroquois primary_culture = southern_algonquin primary_culture = algonquin AND = { primary_culture = septiman NOT = { has_country_flag = SKR_this_is_gaming } } } } } change_province_name = "Erjielheim" }
+						any_land_province = { limit = { province_id = 228 owner = { primary_culture = plantagenian has_global_flag = ganigialand_integrated } } change_province_name = "Douvres" }
+						any_land_province = { limit = { province_id = 228 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = ganigialand_integrated } } change_province_name = "Nye Nidaros" }
+						any_land_province = { limit = { province_id = 228 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = ganigialand_integrated } } change_province_name = "Erjielheim" }
+
+					# 236
+						any_land_province = { limit = { province_id = 236 owner = { primary_culture = septiman has_country_flag = SKR_this_is_gaming } } change_province_name = "Karelstat" }
+						any_land_province = { limit = { province_id = 236 owner = { OR = { primary_culture = iroquois primary_culture = southern_algonquin primary_culture = algonquin AND = { primary_culture = septiman NOT = { has_country_flag = SKR_this_is_gaming } } } } } change_province_name = "Venroa" }
+						any_land_province = { limit = { province_id = 236 owner = { primary_culture = plantagenian has_global_flag = ganigialand_integrated } } change_province_name = "Roi-Charles" }
+						any_land_province = { limit = { province_id = 236 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = ganigialand_integrated } } change_province_name = "Haakonshavn" }
+						any_land_province = { limit = { province_id = 236 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = ganigialand_integrated } } change_province_name = "Venroa" }
+						
+					# 237
+						any_land_province = { limit = { province_id = 237 owner = { primary_culture = septiman has_country_flag = SKR_this_is_gaming } } change_province_name = "Vunderink" }
+						any_land_province = { limit = { province_id = 237 owner = { OR = { primary_culture = iroquois primary_culture = southern_algonquin primary_culture = algonquin AND = { primary_culture = septiman NOT = { has_country_flag = SKR_this_is_gaming } } } } } change_province_name = "Anundagoset" }
+						any_land_province = { limit = { province_id = 237 owner = { primary_culture = plantagenian has_global_flag = ganigialand_integrated } } change_province_name = "Bouquinquan" }
+						any_land_province = { limit = { province_id = 237 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = ganigialand_integrated } } change_province_name = "Nordborg" }
+						any_land_province = { limit = { province_id = 237 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = ganigialand_integrated } } change_province_name = "Bukten" }
+
+					# 3268
+						any_land_province = { limit = { province_id = 3268 owner = { primary_culture = septiman has_country_flag = SKR_this_is_gaming } } change_province_name = "Oostermerk" }
+						any_land_province = { limit = { province_id = 3268 owner = { OR = { primary_culture = iroquois primary_culture = southern_algonquin primary_culture = algonquin AND = { primary_culture = septiman NOT = { has_country_flag = SKR_this_is_gaming } } } } } change_province_name = "Ganigia" }
+						any_land_province = { limit = { province_id = 3268 owner = { primary_culture = plantagenian has_global_flag = ganigialand_integrated } } change_province_name = "Port Laurent" }
+						any_land_province = { limit = { province_id = 3268 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = ganigialand_integrated } } change_province_name = "Østdøren" }
+						any_land_province = { limit = { province_id = 3268 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = ganigialand_integrated } } change_province_name = "Gavlen" }
+
+				# Coskaquias
+					# 165
+						any_land_province = { limit = { province_id = 165 owner = { primary_culture = septiman has_global_flag = coskaquias_integrated } } change_province_name = "Terre Hôte" state_scope = { change_region_name = "Valoney" } }
+						any_land_province = { limit = { province_id = 165 owner = { primary_culture = plantagenian has_global_flag = coskaquias_integrated } } change_province_name = "Ascension" state_scope = { change_region_name = "Coskaquias" } }
+						any_land_province = { limit = { province_id = 165 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = coskaquias_integrated } } change_province_name = "Hakadal" state_scope = { change_region_name = "Nedland" } }
+						any_land_province = { limit = { province_id = 165 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = coskaquias_integrated } } change_province_name = "Omøafold" state_scope = { change_region_name = "Kaskakiane" } }
+
+					# 167
+						any_land_province = { limit = { province_id = 167 owner = { primary_culture = septiman has_global_flag = coskaquias_integrated } } change_province_name = "Jéruzalem" }
+						any_land_province = { limit = { province_id = 167 owner = { primary_culture = plantagenian has_global_flag = coskaquias_integrated } } change_province_name = "Jérusalem" }
+						any_land_province = { limit = { province_id = 167 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = coskaquias_integrated } } change_province_name = "Jórsalir" }
+						any_land_province = { limit = { province_id = 167 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = coskaquias_integrated } } change_province_name = "Nidaros" }
+
+					# 168
+						any_land_province = { limit = { province_id = 167 owner = { primary_culture = septiman has_global_flag = coskaquias_integrated } } change_province_name = "Dreiwasser" }
+						any_land_province = { limit = { province_id = 167 owner = { primary_culture = plantagenian has_global_flag = coskaquias_integrated } } change_province_name = "Cornouailles" }
+						any_land_province = { limit = { province_id = 167 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = coskaquias_integrated } } change_province_name = "Pelserland" }
+						any_land_province = { limit = { province_id = 167 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = coskaquias_integrated } } change_province_name = "Libertalia" }
+
+					# 170
+						any_land_province = { limit = { province_id = 170 owner = { primary_culture = septiman has_global_flag = coskaquias_integrated } } change_province_name = "Utrek-so-Mamey" }
+						any_land_province = { limit = { province_id = 170 owner = { primary_culture = plantagenian has_global_flag = coskaquias_integrated } } change_province_name = "Saint Ignace" }
+						any_land_province = { limit = { province_id = 170 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = coskaquias_integrated } } change_province_name = "Trollhølet" }
+						any_land_province = { limit = { province_id = 170 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = coskaquias_integrated } } change_province_name = "Muskakitomt" }
+
+					# 169
+						any_land_province = { limit = { province_id = 169 owner = { primary_culture = septiman has_global_flag = coskaquias_integrated } } change_province_name = "Rotbork" }
+						any_land_province = { limit = { province_id = 169 owner = { primary_culture = plantagenian has_global_flag = coskaquias_integrated } } change_province_name = "Peauquechaux" }
+						any_land_province = { limit = { province_id = 169 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = coskaquias_integrated } } change_province_name = "Rødrud" }
+						any_land_province = { limit = { province_id = 169 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = coskaquias_integrated } } change_province_name = "Peikstad" }
+
+					# 172
+						any_land_province = { limit = { province_id = 172 owner = { primary_culture = septiman has_global_flag = coskaquias_integrated } } change_province_name = "Mamey" }
+						any_land_province = { limit = { province_id = 172 owner = { primary_culture = plantagenian has_global_flag = coskaquias_integrated } } change_province_name = "Reine" }
+						any_land_province = { limit = { province_id = 172 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = coskaquias_integrated } } change_province_name = "Lønneberget" }
+						any_land_province = { limit = { province_id = 172 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = coskaquias_integrated } } change_province_name = "Møamejøkul" }
+
+				# Illnimark
+					# 159
+						any_land_province = { limit = { province_id = 159 owner = { primary_culture = septiman has_global_flag = Illnimark_integrated } } change_province_name = "Milokey" state_scope = { change_region_name = "Nouvel Renaney" } }
+						any_land_province = { limit = { province_id = 159 owner = { primary_culture = plantagenian has_global_flag = Illnimark_integrated } } change_province_name = "Miloquie" state_scope = { change_region_name = "Pays des Illinois" } }
+						any_land_province = { limit = { province_id = 159 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = Illnimark_integrated } } change_province_name = "Kattebuen" state_scope = { change_region_name = "Brannsletten" } }
+						any_land_province = { limit = { province_id = 159 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = Illnimark_integrated } } change_province_name = "Mivåker" state_scope = { change_region_name = "Illenmark" } }
+
+					# 171
+						any_land_province = { limit = { province_id = 171 owner = { primary_culture = septiman has_global_flag = Illnimark_integrated } } change_province_name = "Blômont" }
+						any_land_province = { limit = { province_id = 171 owner = { primary_culture = plantagenian has_global_flag = Illnimark_integrated } } change_province_name = "Fort Leicestre" }
+						any_land_province = { limit = { province_id = 171 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = Illnimark_integrated } } change_province_name = "Flåklypa" }
+						any_land_province = { limit = { province_id = 171 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = Illnimark_integrated } } change_province_name = "Osamoen" }
+						
+					# 163
+						any_land_province = { limit = { province_id = 163 owner = { primary_culture = septiman has_global_flag = Illnimark_integrated } } change_province_name = "Tchécago" }
+						any_land_province = { limit = { province_id = 163 owner = { primary_culture = plantagenian has_global_flag = Illnimark_integrated } } change_province_name = "Chécagou" }
+						any_land_province = { limit = { province_id = 163 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = Illnimark_integrated } } change_province_name = "Skitago" }
+						any_land_province = { limit = { province_id = 163 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = Illnimark_integrated } } change_province_name = "Hageby" }
+
+					# 164
+						any_land_province = { limit = { province_id = 164 owner = { primary_culture = septiman has_global_flag = Illnimark_integrated } } change_province_name = "Betleyem" }
+						any_land_province = { limit = { province_id = 164 owner = { primary_culture = plantagenian has_global_flag = Illnimark_integrated } } change_province_name = "Saint François" }
+						any_land_province = { limit = { province_id = 164 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = Illnimark_integrated } } change_province_name = "Beitehjem" }
+						any_land_province = { limit = { province_id = 164 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = Illnimark_integrated } } change_province_name = "Pevald" }
+
+					# 166
+						any_land_province = { limit = { province_id = 166 owner = { primary_culture = septiman has_global_flag = Illnimark_integrated } } change_province_name = "Arlon-Arcadiene" }
+						any_land_province = { limit = { province_id = 166 owner = { primary_culture = plantagenian has_global_flag = Illnimark_integrated } } change_province_name = "Fort Crèvecoeur" }
+						any_land_province = { limit = { province_id = 166 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = Illnimark_integrated } } change_province_name = "Storjuvet" }
+						any_land_province = { limit = { province_id = 166 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = Illnimark_integrated } } change_province_name = "Tejaknippa" }
+
+				# Skrælingmark
+					# 54
+						any_land_province = { limit = { province_id = 54 owner = { primary_culture = septiman has_global_flag = Skraelingmark_integrated } } change_province_name = "Nuys" state_scope = { change_region_name = "Ondarey do Levant" } }
+						any_land_province = { limit = { province_id = 54 owner = { primary_culture = plantagenian has_global_flag = Skraelingmark_integrated } } change_province_name = "Canadère" state_scope = { change_region_name = "Grand Lac" } }
+						any_land_province = { limit = { province_id = 54 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = Skraelingmark_integrated } } change_province_name = "Gløppa" state_scope = { change_region_name = "Skrælingsmark" } }
+						any_land_province = { limit = { province_id = 54 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = Skraelingmark_integrated } } change_province_name = "Skanadarsvatn" state_scope = { change_region_name = "Skrælingsmark" } }
+
+					# 55
+						any_land_province = { limit = { province_id = 55 owner = { primary_culture = septiman has_global_flag = Skraelingmark_integrated } } change_province_name = "Wandbork" }
+						any_land_province = { limit = { province_id = 55 owner = { primary_culture = plantagenian has_global_flag = Skraelingmark_integrated } } change_province_name = "Missisauje" }
+						any_land_province = { limit = { province_id = 55 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = Skraelingmark_integrated } } change_province_name = "Vannberg" }
+						any_land_province = { limit = { province_id = 55 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = Skraelingmark_integrated } } change_province_name = "Helgensland" }
+
+					# 53
+						any_land_province = { limit = { province_id = 53 owner = { primary_culture = septiman has_global_flag = Skraelingmark_integrated } } change_province_name = "Nadville" }
+						any_land_province = { limit = { province_id = 53 owner = { primary_culture = plantagenian has_global_flag = Skraelingmark_integrated } } change_province_name = "Huronville" }
+						any_land_province = { limit = { province_id = 53 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = Skraelingmark_integrated } } change_province_name = "Naustet" }
+						any_land_province = { limit = { province_id = 53 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = Skraelingmark_integrated } } change_province_name = "Nautvassenget" }
+
+					# 46
+						any_land_province = { limit = { province_id = 46 owner = { primary_culture = septiman has_global_flag = Skraelingmark_integrated } } change_province_name = "Trinité" }
+						any_land_province = { limit = { province_id = 46 owner = { primary_culture = plantagenian has_global_flag = Skraelingmark_integrated } } change_province_name = "Trinité" }
+						any_land_province = { limit = { province_id = 46 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = Skraelingmark_integrated } } change_province_name = "Trestad" }
+						any_land_province = { limit = { province_id = 46 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = Skraelingmark_integrated } } change_province_name = "Teigenenga" }
+
+				# Menemene
+					# 160
+						any_land_province = { limit = { province_id = 160 owner = { primary_culture = septiman has_global_flag = Menemene_integrated } } change_province_name = "Andreskerch" state_scope = { change_region_name = "Pays Menmès" } }
+						any_land_province = { limit = { province_id = 160 owner = { primary_culture = plantagenian has_global_flag = Menemene_integrated } } change_province_name = "Saint André" state_scope = { change_region_name = "Terres Rouges" } }
+						any_land_province = { limit = { province_id = 160 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = Menemene_integrated } } change_province_name = "Sankt Andreas" state_scope = { change_region_name = "Hedmark" } }
+						any_land_province = { limit = { province_id = 160 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = Menemene_integrated } } change_province_name = "Minongsvåje" state_scope = { change_region_name = "Mametjioktå" } }
+
+					# 161
+						any_land_province = { limit = { province_id = 161 owner = { primary_culture = septiman has_global_flag = Menemene_integrated } } change_province_name = "Zutphen" }
+						any_land_province = { limit = { province_id = 161 owner = { primary_culture = plantagenian has_global_flag = Menemene_integrated } } change_province_name = "Manidouvie" }
+						any_land_province = { limit = { province_id = 161 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = Menemene_integrated } } change_province_name = "Kjellvik" }
+						any_land_province = { limit = { province_id = 161 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = Menemene_integrated } } change_province_name = "Kragheim" }
+
+					# 162
+						any_land_province = { limit = { province_id = 162 owner = { primary_culture = septiman has_global_flag = Menemene_integrated } } change_province_name = "Hatoû" }
+						any_land_province = { limit = { province_id = 162 owner = { primary_culture = plantagenian has_global_flag = Menemene_integrated } } change_province_name = "Atou" }
+						any_land_province = { limit = { province_id = 162 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = Menemene_integrated } } change_province_name = "Atun" }
+						any_land_province = { limit = { province_id = 162 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = Menemene_integrated } } change_province_name = "Atu" }
+
+					# 177
+						any_land_province = { limit = { province_id = 177 owner = { primary_culture = septiman has_global_flag = Menemene_integrated } } change_province_name = "Nouvele Åxhe" }
+						any_land_province = { limit = { province_id = 177 owner = { primary_culture = plantagenian has_global_flag = Menemene_integrated } } change_province_name = "Sainte Marie" }
+						any_land_province = { limit = { province_id = 177 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = Menemene_integrated } } change_province_name = "Kirsebærdalen" }
+						any_land_province = { limit = { province_id = 177 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = Menemene_integrated } } change_province_name = "Manidøva" }
+
+				# Potomimark
+					# 175
+						any_land_province = { limit = { province_id = 175 owner = { primary_culture = septiman has_global_flag = Potomim_integrated } } change_province_name = "Sagôn" state_scope = { change_region_name = "Ondarey do Coûtchant" } }
+						any_land_province = { limit = { province_id = 175 owner = { primary_culture = plantagenian has_global_flag = Potomim_integrated } } change_province_name = "Sagres" state_scope = { change_region_name = "Pays d'en Haut" } }
+						any_land_province = { limit = { province_id = 175 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = Potomim_integrated } } change_province_name = "Skjåk" state_scope = { change_region_name = "Nye Jylland" } }
+						any_land_province = { limit = { province_id = 175 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = Potomim_integrated } } change_province_name = "Sakebø" state_scope = { change_region_name = "Nisjinabemark" } }
+
+					# 173
+						any_land_province = { limit = { province_id = 173 owner = { primary_culture = septiman has_global_flag = Potomim_integrated } } change_province_name = "Détroit" }
+						any_land_province = { limit = { province_id = 173 owner = { primary_culture = plantagenian has_global_flag = Potomim_integrated } } change_province_name = "Détroit" }
+						any_land_province = { limit = { province_id = 173 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = Potomim_integrated } } change_province_name = "Stredet" }
+						any_land_province = { limit = { province_id = 173 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = Potomim_integrated } } change_province_name = "Stredet" }
+
+					# 174
+						any_land_province = { limit = { province_id = 174 owner = { primary_culture = septiman has_global_flag = Potomim_integrated } } change_province_name = "Meerstat" }
+						any_land_province = { limit = { province_id = 174 owner = { primary_culture = plantagenian has_global_flag = Potomim_integrated } } change_province_name = "Vicêtre" }
+						any_land_province = { limit = { province_id = 174 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = Potomim_integrated } } change_province_name = "Nangiajala" }
+						any_land_province = { limit = { province_id = 174 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = Potomim_integrated } } change_province_name = "Masjkigesmyra" }
+
+					# 176
+						any_land_province = { limit = { province_id = 176 owner = { primary_culture = septiman has_global_flag = Potomim_integrated } } change_province_name = "Ministoû" }
+						any_land_province = { limit = { province_id = 176 owner = { primary_culture = plantagenian has_global_flag = Potomim_integrated } } change_province_name = "Ministioua" }
+						any_land_province = { limit = { province_id = 176 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = Potomim_integrated } } change_province_name = "Mansta" }
+						any_land_province = { limit = { province_id = 176 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = Potomim_integrated } } change_province_name = "Manistigsvåg" }
+
+				# Eriesland
+					# 179
+						any_land_province = { limit = { province_id = 179 owner = { primary_culture = septiman has_global_flag = Eriesland_integrated } } change_province_name = "Minningen" state_scope = { change_region_name = "Ambiorey" } }
+						any_land_province = { limit = { province_id = 179 owner = { primary_culture = plantagenian has_global_flag = Eriesland_integrated } } change_province_name = "Migoua" state_scope = { change_region_name = "Sylvanie" } }
+						any_land_province = { limit = { province_id = 179 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = Eriesland_integrated } } change_province_name = "Tyskberget" state_scope = { change_region_name = "Engillsland" } }
+						any_land_province = { limit = { province_id = 179 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = Eriesland_integrated } } change_province_name = "Minvang" state_scope = { change_region_name = "Erjielsland" } }
+
+					# 180
+						any_land_province = { limit = { province_id = 180 owner = { primary_culture = septiman has_global_flag = Eriesland_integrated } } change_province_name = "Godogne" }
+						any_land_province = { limit = { province_id = 180 owner = { primary_culture = plantagenian has_global_flag = Eriesland_integrated } } change_province_name = "Gojogne" }
+						any_land_province = { limit = { province_id = 180 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = Eriesland_integrated } } change_province_name = "Muspellsheim" }
+						any_land_province = { limit = { province_id = 180 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = Eriesland_integrated } } change_province_name = "Gajohaugen" }
+
+					# 181
+						any_land_province = { limit = { province_id = 181 owner = { primary_culture = septiman has_global_flag = Eriesland_integrated } } change_province_name = "Bonfontinne" }
+						any_land_province = { limit = { province_id = 181 owner = { primary_culture = plantagenian has_global_flag = Eriesland_integrated } } change_province_name = "Jumonville" }
+						any_land_province = { limit = { province_id = 181 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = Eriesland_integrated } } change_province_name = "Ginungagap" }
+						any_land_province = { limit = { province_id = 181 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = Eriesland_integrated } } change_province_name = "Mississinosa" }
+
+					# 182
+						any_land_province = { limit = { province_id = 182 owner = { primary_culture = septiman has_global_flag = Eriesland_integrated } } change_province_name = "Tchénad" }
+						any_land_province = { limit = { province_id = 182 owner = { primary_culture = plantagenian has_global_flag = Eriesland_integrated } } change_province_name = "Nouveau-Windsor" }
+						any_land_province = { limit = { province_id = 182 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = Eriesland_integrated } } change_province_name = "Nivlheim" }
+						any_land_province = { limit = { province_id = 182 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = Eriesland_integrated } } change_province_name = "Brorskærri" }
+
+					# 183
+						any_land_province = { limit = { province_id = 183 owner = { primary_culture = septiman has_global_flag = Eriesland_integrated } } change_province_name = "Lahure" }
+						any_land_province = { limit = { province_id = 183 owner = { primary_culture = plantagenian has_global_flag = Eriesland_integrated } } change_province_name = "Labiche" }
+						any_land_province = { limit = { province_id = 183 owner = { primary_culture = vinlander OR = { has_country_flag = reactionary_VIN has_country_flag = moderate_vin_conservative } has_global_flag = Eriesland_integrated } } change_province_name = "Lillkøping" }
+						any_land_province = { limit = { province_id = 183 owner = { primary_culture = vinlander OR = { has_country_flag = moderate_vin_liberal has_country_flag = RADICAL_VIN } has_global_flag = Eriesland_integrated } } change_province_name = "Vakatamoen" }
+
 				# Veracruz
 					# 2162
 						any_land_province = { limit = { province_id = 2162 owner = { tag = CLM has_country_flag = renovation_veracruz OR = { has_country_flag = CASTO_CLM has_country_flag = IMPERIAL_CLM } } } change_province_name = "Ciudad Victoria" }
@@ -1061,6 +1271,31 @@ country_event = {
 						any_land_province = { limit = { province_id = 302 owner = { primary_culture = anglois } } change_province_name = "Hantone" }
 
 					# 303
+			
+			# East Asia
+				# Philippine Islands
+					# 1654
+						any_land_province = { limit = { province_id = 1654 owner = { primary_culture = japanese has_country_flag = bonin_administration } } change_province_name = "Iwo Jima" state_scope = { change_region_name = "Ogasawara" } }
+
+					# 2517
+					# 2521
+					# 2525
+					# 2524
+						any_land_province = { limit = { province_id = 2524 owner = { primary_culture = japanese has_country_flag = bonin_administration } } change_province_name = "Minami Torishima" }
+
+				# Kinai
+					# 1655
+						any_land_province = { limit = { province_id = 1655 owner = { primary_culture = japanese has_country_flag = keishi_japan } } change_province_name = "Keishi" }
+						any_land_province = { limit = { province_id = 1655 owner = { primary_culture = japanese NOT = { has_country_flag = keishi_japan } } } change_province_name = "Osaka" }
+
+					# 1649
+						any_land_province = { limit = { province_id = 1649 owner = { primary_culture = japanese has_global_flag = tokyo_japan } } change_province_name = "Tokyo" }
+						any_land_province = { limit = { province_id = 1649 owner = { primary_culture = japanese NOT = { has_global_flag = tokyo_japan } } } change_province_name = "Edo" }
+
+					# 1657
+						any_land_province = { limit = { province_id = 1657 owner = { primary_culture = japanese NOT = { has_global_flag = taikyo_japan } } }change_province_name = "Kyoto" }
+						any_land_province = { limit = { province_id = 1657 owner = { primary_culture = japanese has_global_flag = taikyo_japan } } change_province_name = "Taikyo" }
+
 
 
 

@@ -667,6 +667,7 @@ political_decisions = {
 	
 	   effect = { 
 	     set_country_flag = capital_decision
+		 set_global_flag = keishi_japan
 		 capital = 1655
 		 1655 = {
 			 add_province_modifier = {
@@ -710,6 +711,7 @@ political_decisions = {
 	
 	   effect = { 
 	     set_country_flag = capital_decision
+		 set_global_flag = tokyo_japan
 		 capital = 1649
 		 1649 = {
 			 add_province_modifier = {
@@ -746,6 +748,7 @@ political_decisions = {
 	
 	   effect = { 
 	     set_country_flag = capital_decision
+		 set_global_flag = taikyo_japan
 		 1657 = {
 			 add_province_modifier = {
 				 name = gateway_to_harbor
