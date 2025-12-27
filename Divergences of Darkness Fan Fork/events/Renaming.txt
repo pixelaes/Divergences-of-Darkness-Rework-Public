@@ -690,7 +690,16 @@ country_event = {
 						any_land_province = { limit = { province_id = 2296 owner = { OR = { primary_culture = quechua overlord = { primary_culture = quechua } } } } change_province_name = "La Guaira" }
 
 			# Arcadia
-				# Laofeng
+				# Veracruz
+					# 2162
+						any_land_province = { limit = { province_id = 2162 owner = { tag = CLM has_country_flag = renovation_veracruz OR = { has_country_flag = CASTO_CLM has_country_flag = IMPERIAL_CLM } } } change_province_name = "Ciudad Victoria" }
+						any_land_province = { limit = { province_id = 2162 owner = { tag = CLM has_country_flag = renovation_veracruz has_country_flag = VICINTE_CLM } } change_province_name = "Ciudad Vicente" }
+
+				# Jalisco
+					# 2161
+						any_land_province = { limit = { province_id = 2161 owner = { tag = CLM has_country_flag = renovation_veracruz } } change_province_name = "Puertoriental" }
+
+				# Minchichanes Nebraskies
 					# 106
 						any_land_province = { limit = { province_id = 106 owner = { primary_culture = qingqiuan } } change_province_name = "Longshan" state_scope = { change_region_name = "Laofeng" } }
 						any_land_province = { limit = { province_id = 106 owner = { OR = { primary_culture = plantagenian primary_culture = septiman } } } change_province_name = "Nouvelle Paris" state_scope = { change_region_name = "Minchichanes Nébraskies" } }
