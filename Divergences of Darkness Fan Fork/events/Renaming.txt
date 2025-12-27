@@ -981,6 +981,89 @@ country_event = {
 						any_land_province = { limit = { province_id = 2636 owner = { tag = NET } } change_province_name = "Dunkirk" }
 						any_land_province = { limit = { province_id = 2636 owner = { OR = { tag = BRG tag = PBG } } } change_province_name = "Dunkerque" }
 
+				# North West England
+					# 277
+						any_land_province = { limit = { province_id = 277 owner = { primary_culture = english } } change_province_name = "Liverpool" }
+						any_land_province = { limit = { province_id = 277 owner = { primary_culture = anglois } } change_province_name = "Livreport" }
+
+					# 278
+						any_land_province = { limit = { province_id = 278 owner = { primary_culture = english } } change_province_name = "Manchester" }
+						any_land_province = { limit = { province_id = 278 owner = { primary_culture = anglois } } change_province_name = "Manchester" }
+
+					# 279
+
+					# 285
+						any_land_province = { limit = { province_id = 285 owner = { primary_culture = english } } change_province_name = "Chester" }
+						any_land_province = { limit = { province_id = 285 owner = { primary_culture = anglois } } change_province_name = "Cestre" }
+
+					# 304
+						any_land_province = { limit = { province_id = 304 owner = { primary_culture = english } } change_province_name = "Isle of Man" }
+						any_land_province = { limit = { province_id = 304 owner = { primary_culture = anglois } } change_province_name = "Île de Man" }
+
+				# North East England
+					# 281
+
+					# 280
+						any_land_province = { limit = { province_id = 280 owner = { primary_culture = english } } change_province_name = "Newcastle On Tyne" }
+						any_land_province = { limit = { province_id = 280 owner = { primary_culture = anglois } } change_province_name = "Neufchâtel Sur Tyne" }
+
+					# 282
+						any_land_province = { limit = { province_id = 282 owner = { primary_culture = english } } change_province_name = "Leeds" }
+						any_land_province = { limit = { province_id = 282 owner = { primary_culture = anglois } } change_province_name = "Loinèr" }
+
+					# 283
+						any_land_province = { limit = { province_id = 283 owner = { primary_culture = english } } change_province_name = "Sheffield" }
+						any_land_province = { limit = { province_id = 283 owner = { primary_culture = anglois } } change_province_name = "Chef-des-Champs" }
+
+				# Midlands
+					# 284 
+					# 286 
+						any_land_province = { limit = { province_id = 286 owner = { primary_culture = english } } change_province_name = "Shrewesbury" }
+						any_land_province = { limit = { province_id = 286 owner = { primary_culture = anglois } } change_province_name = "Amwythig" }
+
+					# 287 
+						any_land_province = { limit = { province_id = 287 owner = { primary_culture = english } } change_province_name = "Salisbury" }
+						any_land_province = { limit = { province_id = 287 owner = { primary_culture = anglois } } change_province_name = "Plymville" }
+
+					# 288 
+						any_land_province = { limit = { province_id = 288 owner = { primary_culture = english } } change_province_name = "Nottingham" }
+						any_land_province = { limit = { province_id = 288 owner = { primary_culture = anglois } } change_province_name = "Nottingville" }
+
+					# 289
+						any_land_province = { limit = { province_id = 289 owner = { primary_culture = english } } change_province_name = "Leicester" }
+						any_land_province = { limit = { province_id = 289 owner = { primary_culture = anglois } } change_province_name = "Leicestre" }
+						
+					# 290
+						any_land_province = { limit = { province_id = 290 owner = { primary_culture = english } } change_province_name = "Lincoln" }
+						any_land_province = { limit = { province_id = 290 owner = { primary_culture = anglois } } change_province_name = "Lindre" }
+						
+				# South West England
+					# 296
+					# 299
+						any_land_province = { limit = { province_id = 299 owner = { primary_culture = english } } change_province_name = "Plymouth" }
+						any_land_province = { limit = { province_id = 299 owner = { primary_culture = anglois } } change_province_name = "Plymouth" }
+
+					# 297
+					# 298
+
+				# South East England
+					# 300
+						any_land_province = { limit = { province_id = 300 owner = { primary_culture = english } } change_province_name = "London" }
+						any_land_province = { limit = { province_id = 300 owner = { primary_culture = anglois } } change_province_name = "Londres" }
+
+					# 294
+					# 301
+						any_land_province = { limit = { province_id = 301 owner = { primary_culture = english } } change_province_name = "Canterbury" }
+						any_land_province = { limit = { province_id = 301 owner = { primary_culture = anglois } } change_province_name = "Cantorbéry" }
+						
+					# 302
+						any_land_province = { limit = { province_id = 302 owner = { primary_culture = english } } change_province_name = "Brighton" }
+						any_land_province = { limit = { province_id = 302 owner = { primary_culture = anglois } } change_province_name = "Hantone" }
+
+					# 303
+
+
+
 			# Africa
 				# South Africa
 					# 2087 - bit weird, but ig the tag check works - might need to tie more directly to the decision in Batavia.txt
