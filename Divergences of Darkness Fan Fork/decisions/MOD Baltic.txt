@@ -3162,6 +3162,7 @@ political_decisions = {
 		potential = {
 			tag = PLC
 			has_country_flag = enable_tatar_decision
+			NOT = { has_global_flag = PLC_crimean_triumph_renaming_enabled }
 		}
 	
 		allow = {
@@ -3172,7 +3173,7 @@ political_decisions = {
 	
 		effect = {
 		       prestige = 10
-			   set_country_flag = PLC_crimean_triumph_renaming_enabled
+			   set_global_flag = PLC_crimean_triumph_renaming_enabled
 			   clr_country_flag = enable_tatar_decision
 			   all_core = { remove_core = CSK }       
 			   CRI = { all_core = { add_core = PLC } }

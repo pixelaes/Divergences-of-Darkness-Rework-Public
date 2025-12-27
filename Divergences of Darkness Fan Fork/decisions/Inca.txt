@@ -1548,7 +1548,7 @@ political_decisions = {
 		
 		effect = { 
 			set_country_flag = new_capital 
-			set_country_flag = renaming_flag_2295_argyropolis
+			set_global_flag = renaming_flag_2295_argyropolis
 			capital = 2295
 			2295 = { life_rating = 10 change_province_name = "Argyropolis" } 
 			2295 = {

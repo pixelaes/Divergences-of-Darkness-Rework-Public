@@ -126,7 +126,7 @@ political_decisions = {
 			2087 = {
                 change_province_name = "Kaapstad"
             }
-			set_country_flag = renaming_flag_2087_kaapstad
+			set_global_flag = renaming_flag_2087_kaapstad
 			change_tag = SAF
 		}
 		ai_will_do = {

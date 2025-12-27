@@ -667,7 +667,7 @@ country_event = {
 				# Rimaq
 					# 2295
 						any_land_province = { limit = { province_id = 2295 owner = { primary_culture = quechua } } change_province_name = "Rimaq" state_scope = { change_region_name = "Rimaq" } }
-						any_land_province = { limit = { province_id = 2295 owner = { primary_culture = granadan has_country_flag = renaming_flag_2295_argyropolis } } change_province_name = "Argyropolis" }
+						any_land_province = { limit = { province_id = 2295 owner = { primary_culture = granadan has_global_flag = renaming_flag_2295_argyropolis } } change_province_name = "Argyropolis" }
 				
 					# 2297
 						any_land_province = { limit = { province_id = 2297 owner = { primary_culture = quechua } } change_province_name = "Pisqu" }
@@ -853,105 +853,105 @@ country_event = {
 					
 				# Yedisan
 					# 969
-						any_land_province = { limit = { province_id = 969 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Bohnin" }
+						any_land_province = { limit = { province_id = 969 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Bohnin" }
 
 					# 968
-						any_land_province = { limit = { province_id = 968 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Stanislawow" }
+						any_land_province = { limit = { province_id = 968 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Stanislawow" }
 
 					# 970
-						any_land_province = { limit = { province_id = 970 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Daszow" }
+						any_land_province = { limit = { province_id = 970 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Daszow" }
 
 					# 971
-						any_land_province = { limit = { province_id = 971 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Krzywy Rog" }
+						any_land_province = { limit = { province_id = 971 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Krzywy Rog" }
 
 					# 972
-						any_land_province = { limit = { province_id = 972 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Zaporoze" }
+						any_land_province = { limit = { province_id = 972 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Zaporoze" }
 
 				# Qirim
 					# 973
-						any_land_province = { limit = { province_id = 973 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Sokolow Azowski" }
+						any_land_province = { limit = { province_id = 973 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Sokolow Azowski" }
 					
 					# 965
-						any_land_province = { limit = { province_id = 965 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Nowy Chadzybej" }
+						any_land_province = { limit = { province_id = 965 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Nowy Chadzybej" }
 					
 					# 964
-						any_land_province = { limit = { province_id = 964 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Tasmnicz" }
+						any_land_province = { limit = { province_id = 964 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Tasmnicz" }
 					
 					# 967
-						any_land_province = { limit = { province_id = 967 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Nowa Przystan" }
+						any_land_province = { limit = { province_id = 967 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Nowa Przystan" }
 					
 					# 966
-						any_land_province = { limit = { province_id = 966 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Kerza" }
+						any_land_province = { limit = { province_id = 966 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Kerza" }
 					
 				# Eastern Ukraine
 					# 962
-						any_land_province = { limit = { province_id = 962 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Czernihow" }
+						any_land_province = { limit = { province_id = 962 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Czernihow" }
 					
 					# 978
-						any_land_province = { limit = { province_id = 978 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Charkow" }
+						any_land_province = { limit = { province_id = 978 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Charkow" }
 					
 				# Slobozhanshchyna
 					# 1018
-						any_land_province = { limit = { province_id = 1018 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Bielgorod" }
+						any_land_province = { limit = { province_id = 1018 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Bielgorod" }
 					
 					# 1017
-						any_land_province = { limit = { province_id = 1017 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Orzel" }
+						any_land_province = { limit = { province_id = 1017 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Orzel" }
 					
 					# 1019
-						any_land_province = { limit = { province_id = 1019 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Woronez" }
+						any_land_province = { limit = { province_id = 1019 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Woronez" }
 					
 				# Stepovyna
 					# 974
-						any_land_province = { limit = { province_id = 974 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Torec" }
+						any_land_province = { limit = { province_id = 974 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Torec" }
 					
 					# 975
-						any_land_province = { limit = { province_id = 975 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Donieck" }
+						any_land_province = { limit = { province_id = 975 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Donieck" }
 					
 					# 980
-						any_land_province = { limit = { province_id = 980 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Kozaczek" }
+						any_land_province = { limit = { province_id = 980 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Kozaczek" }
 					
 				# Qoban
 					# 976
-						any_land_province = { limit = { province_id = 976 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Kubaniec" }
+						any_land_province = { limit = { province_id = 976 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Kubaniec" }
 					
 					# 979
-						any_land_province = { limit = { province_id = 979 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Krolewiec nad Donem" }
+						any_land_province = { limit = { province_id = 979 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Krolewiec nad Donem" }
 					
 					# 1047
-						any_land_province = { limit = { province_id = 1047 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Zofianow" }
+						any_land_province = { limit = { province_id = 1047 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Zofianow" }
 					
 					# 1048
-						any_land_province = { limit = { province_id = 1048 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Ochrzan" }
+						any_land_province = { limit = { province_id = 1048 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Ochrzan" }
 					
 				# Xacitarxan
 					# 1050
-						any_land_province = { limit = { province_id = 1050 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Madziar" }
+						any_land_province = { limit = { province_id = 1050 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Madziar" }
 					
 					# 1041
-						any_land_province = { limit = { province_id = 1041 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Kaspijskie Pole" }
+						any_land_province = { limit = { province_id = 1041 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Kaspijskie Pole" }
 					
 					# 1036
-						any_land_province = { limit = { province_id = 1036 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Benedyktyn" }
+						any_land_province = { limit = { province_id = 1036 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Benedyktyn" }
 					
 					# 1040
-						any_land_province = { limit = { province_id = 1040 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Zaslawek" }
+						any_land_province = { limit = { province_id = 1040 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Zaslawek" }
 					
 				# Don-Volga
 					# 1046
-						any_land_province = { limit = { province_id = 1046 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Bialostaw" }
+						any_land_province = { limit = { province_id = 1046 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Bialostaw" }
 					
 					# 1045
-						any_land_province = { limit = { province_id = 1045 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Wokulec" }
+						any_land_province = { limit = { province_id = 1045 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Wokulec" }
 					
 					# 1039
-						any_land_province = { limit = { province_id = 1039 owner = { primary_culture = polish has_country_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Saraj nad Idelem" }
+						any_land_province = { limit = { province_id = 1039 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Saraj nad Idelem" }
 					
 					
 
 			# Africa
 				# South Africa
 					# 2087 - bit weird, but ig the tag check works - might need to tie more directly to the decision in Batavia.txt
-						any_land_province = { limit = { province_id = 2087 owner = { tag = SAF has_country_flag = renaming_flag_2087_kaapstad } } change_province_name = "Kaapstad" }
+						any_land_province = { limit = { province_id = 2087 owner = { tag = SAF has_global_flag = renaming_flag_2087_kaapstad } } change_province_name = "Kaapstad" }
 						any_land_province = { limit = { province_id = 2087 owner = { primary_culture = burgundian } } change_province_name = "Ville du Cap" }
 
 
