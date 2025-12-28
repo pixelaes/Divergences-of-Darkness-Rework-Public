@@ -1188,6 +1188,9 @@ country_event = {
 					
 					# 1039
 						any_land_province = { limit = { province_id = 1039 owner = { primary_culture = polish has_global_flag = PLC_crimean_triumph_renaming_enabled } } change_province_name = "Saraj nad Idelem" }
+						any_land_province = { limit = { province_id = 1039 owner = { has_global_flag = russia_volgograd OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian } } } change_province_name = "Volgograd" }
+						any_land_province = { limit = { province_id = 1039 owner = { has_global_flag = russia_slavyansk OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian } } } change_province_name = "Slavyansk" }
+						any_land_province = { limit = { province_id = 1039 owner = { OR = { AND = { NOT = { primary_culture = polish } NOT = { primary_culture = russian } NOT = { primary_culture = north_russian } NOT = { primary_culture = cossack } NOT = { primary_culture = ruthenian } } AND = { NOT = { has_global_flag = russia_volgograd } NOT = { has_global_flag = russia_slavyansk } OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian } } AND = { primary_culture = polish NOT = { has_global_flag = PLC_crimean_triumph_renaming_enabled } } } } } change_province_name = "Great Saraj" }
 					
 				# Brabant
 					# 390
@@ -1252,8 +1255,10 @@ country_event = {
 				# Midlands
 					# 284 
 					# 286 
-						any_land_province = { limit = { province_id = 286 owner = { primary_culture = english } } change_province_name = "Shrewesbury" }
-						any_land_province = { limit = { province_id = 286 owner = { primary_culture = anglois } } change_province_name = "Amwythig" }
+						any_land_province = { limit = { province_id = 286 owner = { primary_culture = english NOT = { tag = NAN } } } change_province_name = "Shropshire" }
+						any_land_province = { limit = { province_id = 286 owner = { primary_culture = anglois } } change_province_name = "Salopsberie" }
+						any_land_province = { limit = { province_id = 286 owner = { tag = NAN } } change_province_name = "Shrewesbury" } # the relic of a funny moment in DoDcord
+						any_land_province = { limit = { province_id = 286 owner = { primary_culture = anglois primary_culture = welsh } } change_province_name = "Amwythig" } # the relic of the same funny moment in DoDcord
 
 					# 287 
 						any_land_province = { limit = { province_id = 287 owner = { primary_culture = english } } change_province_name = "Salisbury" }
@@ -1296,7 +1301,112 @@ country_event = {
 
 					# 303
 			
+				# Ingermanland
+					# 994
+						any_land_province = { limit = { province_id = 994 owner = { has_global_flag = russia_belskaya OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian} } } change_province_name = "Belskaya" }
+						any_land_province = { limit = { province_id = 994 owner = { OR = { NOT = { has_global_flag = russia_belskaya } AND = { NOT { primary_culture = russian } NOT = { primary_culture = north_russian } NOT = { primary_culture = cossack } NOT { primary_culture = ruthenian } } } } } change_province_name = "Nyenschantz" }
+						
+				# Qoban
+					# 979
+						any_land_province = { limit = { province_id = 979 owner = { has_global_flag = russia_alexandrovsk OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian } } } change_province_name = "Alexandrovsk" }
+						any_land_province = { limit = { province_id = 979 owner = { OR = { NOT = { has_global_flag = russia_alexandrovsk } AND = { NOT { primary_culture = russian } NOT = { primary_culture = north_russian } NOT = { primary_culture = cossack } NOT { primary_culture = ruthenian } } } } } change_province_name = "Tanais" }
+
+				# Prawobrzeze
+					# 958
+						any_land_province = { limit = { province_id = 958 owner = { has_global_flag = russia_kiev OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian } } } change_province_name = "Kiev" }
+						any_land_province = { limit = { province_id = 958 owner = { NOT = { has_global_flag = russia_kiev } OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian tag = RUG } } } change_province_name = "Kyiv" } #DEVNOTE: redundant russia_kyiv global flag for previous draft
+						any_land_province = { limit = { province_id = 958 owner = { NOT { primary_culture = russian } NOT = { primary_culture = north_russian } NOT = { primary_culture = cossack } NOT { primary_culture = ruthenian } NOT = { tag = RUG } } } change_province_name = "Kijów" }
+
+					# 960
+						any_land_province = { limit = { province_id = 960 owner = { OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian tag = RUG } } } change_province_name = "Vinnitsa" }
+
+					# 3251
+						any_land_province = { limit = { province_id = 3251 owner = { OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian tag = RUG } } } change_province_name = "Mohyliv" }
+
+				# Estland
+					# 349
+						any_land_province = { limit = { province_id = 349 owner = { OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian tag = BLT } } } change_province_name = "Zimniy" }
+
+					# 350
+					# 351
+						any_land_province = { limit = { province_id = 351 owner = { OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian tag = BLT } } } change_province_name = "Pirov" }
+
+					# 352
+						any_land_province = { limit = { province_id = 352 owner = { OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian tag = BLT } } } change_province_name = "Yuriev" }
+
+					# 353
+						any_land_province = { limit = { province_id = 353 owner = { OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian tag = BLT } } } change_province_name = "Zhuravlyov" }
+
+				# Livland
+					# 354
+					# 355
+						any_land_province = { limit = { province_id = 355 owner = { OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian tag = BLT } } } change_province_name = "Bogoroditsk" }
+
+					# 356
+						any_land_province = { limit = { province_id = 356 owner = { OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian tag = BLT } } } change_province_name = "Nevgin" }
+
+				# Kurland
+					# 357
+						any_land_province = { limit = { province_id = 357 owner = { OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian tag = BLT } } } change_province_name = "Mitava" }
+
+					# 358
+						any_land_province = { limit = { province_id = 358 owner = { OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian tag = BLT } } } change_province_name = "Zolotino" }
+
+					# 359
+						any_land_province = { limit = { province_id = 359 owner = { OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian tag = BLT } } } change_province_name = "Liubava" }
+
+				# Auksztota
+					# 361
+
+					# 362
+
+					# 363
+						any_land_province = { limit = { province_id = 363 owner = { OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian tag = BLT } } } change_province_name = "Nyavezhys" }
+
+					# 707
+				
+				# Zmudz
+					# 698
+					# 364
+						any_land_province = { limit = { province_id = 364 owner = { OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian tag = BLT } } } change_province_name = "Shavel" }
+
+					# 365
+						any_land_province = { limit = { province_id = 365 owner = { OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian tag = BLT } } } change_province_name = "Port-Neman" }
+				
+				# Wolyn
+					# 942
+						any_land_province = { limit = { province_id = 942 owner = { OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian tag = RUG } } } change_province_name = "Mozyr" }
+						
+					# 955
+						any_land_province = { limit = { province_id = 955 owner = { OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian tag = RUG } } } change_province_name = "Rivne" }
+						
+					# 956
+					# 959
+						any_land_province = { limit = { province_id = 959 owner = { OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian tag = RUG } } } change_province_name = "Zhytomir" }
+
+				# Podlasie
+					# 719
+						any_land_province = { limit = { province_id = 719 owner = { OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian tag = RUG } } } change_province_name = "Belostok" }
+
+					# 937
+						any_land_province = { limit = { province_id = 937 owner = { OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian tag = RUG } } } change_province_name = "Brest" }
+
+				# Rus Czerwona
+					# 957
+						any_land_province = { limit = { province_id = 957 owner = { OR = { primary_culture = russian primary_culture = north_russian primary_culture = cossack primary_culture = ruthenian tag = RUG } } } change_province_name = "Kholm" }
+
+			# Central Asia
+				# Pamir
+					# 1207
+						any_land_province = { limit = { province_id = 1082 owner = { has_country_flag = hegemony_in_central_asia } }change_province_name = "Dushanbe" }
+						any_land_province = { limit = { province_id = 1082 owner = { NOT = { has_country_flag = hegemony_in_central_asia } } } change_province_name = "Kulob" }
+
 			# East Asia
+				# Outer Manchuria
+					# 1082
+						any_land_province = { limit = { province_id = 1082 owner = { OR = { primary_culture = russian  primary_culture = north_russian primary_culture = cossack } } has_country_flag = RUS_kneel_vlad } change_province_name = "Vladivostok" }
+						any_land_province = { limit = { province_id = 1082 owner = { OR = { NOT = { has_country_flag = RUS_kneel_vlad } AND = { NOT { primary_culture = russian } NOT = { primary_culture = north_russian } NOT = { primary_culture = cossack } NOT { primary_culture = ruthenian } } } } }change_province_name = "Haishenwei" }
+				
 				# Philippine Islands
 					# 1654
 						any_land_province = { limit = { province_id = 1654 owner = { primary_culture = japanese has_country_flag = bonin_administration } } change_province_name = "Iwo Jima" state_scope = { change_region_name = "Ogasawara" } }
@@ -1307,7 +1417,7 @@ country_event = {
 					# 2524
 						any_land_province = { limit = { province_id = 2524 owner = { primary_culture = japanese has_country_flag = bonin_administration } } change_province_name = "Minami Torishima" }
 
-				# Kinai
+				# Capital
 					# 1655
 						any_land_province = { limit = { province_id = 1655 owner = { primary_culture = japanese has_country_flag = keishi_japan } } change_province_name = "Keishi" }
 						any_land_province = { limit = { province_id = 1655 owner = { primary_culture = japanese NOT = { has_country_flag = keishi_japan } } } change_province_name = "Osaka" }
@@ -1327,16 +1437,16 @@ country_event = {
 						any_land_province = { limit = { province_id = 2087 owner = { primary_culture = burgundian } } change_province_name = "Ville du Cap" }
 				# Ivory Coast
 					# 1892
-						any_land_province = { limit = { province_id = 1892 owner = { NOT = { capital_scope = { continent = africa } } has_global_flag = ivory_coast_organized } } change_province_name = "Abidjan" }
-						any_land_province = { limit = { province_id = 1892 owner = { OR = { capital_scope = { continent = africa } AND = { NOT = { capital_scope = { continent = africa } } NOT = { has_global_flag = ivory_coast_organized } } } } }change_province_name = "Bandama" }
+						any_land_province = { limit = { province_id = 1892 owner = { has_global_flag = ivory_coast_organized } } change_province_name = "Abidjan" }
+						any_land_province = { limit = { province_id = 1892 owner = { NOT = { has_global_flag = ivory_coast_organized } } }change_province_name = "Bandama" }
 				# Chad
 					# 1818
-						any_land_province = { limit = { province_id = 1818 owner = { NOT = { capital_scope = { continent = africa } } has_global_flag = chad_organized } } change_province_name = "Massenya" }
-						any_land_province = { limit = { province_id = 1818 owner = { OR = { capital_scope = { continent = africa } AND = { NOT = { capital_scope = { continent = africa } } NOT = { has_global_flag = chad_organized } } } } } change_province_name = "Maroua" }
-				# Chad
+						any_land_province = { limit = { province_id = 1818 owner = { has_global_flag = chad_organized } } change_province_name = "Massenya" }
+						any_land_province = { limit = { province_id = 1818 owner = { NOT = { has_global_flag = chad_organized } } } change_province_name = "Maroua" }
+				# Uganda
 					# 2019
-						any_land_province = { limit = { province_id = 2019 owner = { NOT = { capital_scope = { continent = africa } } has_global_flag = uganda_organized } } change_province_name = "Kampala" }
-						any_land_province = { limit = { province_id = 2019 owner = { OR = { capital_scope = { continent = africa } AND = { NOT = { capital_scope = { continent = africa } } NOT = { has_global_flag = uganda_organized } } } } } change_province_name = "Entebbe" }
+						any_land_province = { limit = { province_id = 2019 owner = { has_global_flag = uganda_organized } } change_province_name = "Kampala" }
+						any_land_province = { limit = { province_id = 2019 owner = { NOT = { has_global_flag = uganda_organized } } } change_province_name = "Entebbe" }
 
 
 

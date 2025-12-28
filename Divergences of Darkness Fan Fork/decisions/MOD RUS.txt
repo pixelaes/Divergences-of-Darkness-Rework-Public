@@ -5333,6 +5333,7 @@ political_decisions = {
 	 				}  	  
 			}
 			set_country_flag = RUS_moved_capital
+			set_global_flag = russia_belskaya
 		}
 		ai_will_do = {
 			factor = 1
@@ -5447,6 +5448,7 @@ political_decisions = {
 	 				}  	  
 			}
 			set_country_flag = RUS_moved_capital
+			set_global_flag = russia_alexandrovsk
 		}
 		ai_will_do = {
 			factor = 1
@@ -5506,6 +5508,7 @@ political_decisions = {
 	 				}  	  
 			}
 			set_country_flag = RUS_moved_capital
+			set_global_flag = russia_volgograd
 		}
 		ai_will_do = {
 			factor = 1
@@ -5622,6 +5625,7 @@ political_decisions = {
 	 				}  	  
 			}
 			set_country_flag = RUS_moved_capital
+			has_global_flag = russia_kiev
 		}
 		ai_will_do = {
 			factor = 1
@@ -5678,6 +5682,7 @@ political_decisions = {
 	 				}  	  
 			}
 			set_country_flag = RUS_moved_capital
+			set_global_flag = russia_kyiv
 		}
 		ai_will_do = {
 			factor = 1
@@ -5737,6 +5742,7 @@ political_decisions = {
 	 				}  	  
 			}
 			set_country_flag = RUS_moved_capital
+			set_global_flag = russia_slavyansk
 		}
 		ai_will_do = {
 			factor = 1
@@ -7906,75 +7912,7 @@ political_decisions = {
 			prestige = 5
 			set_country_flag = big_brother_is_watching
 		}
-	}	
-
-	RUS_rename_Baltic = {
-		picture = "gtfo"
-		potential = {
-			OR = { AND = { tag = RUS has_country_flag = baltic_focus } tag = BLT } 
-			NOT = { has_global_flag = renamed_Baltic } 
-		}
-		
-		allow = {
-			war = no
-			owns = 349 
-			owns = 355 
-			owns = 364 
-			owns = 351
-		}
-		
-		effect = {
-				set_global_flag = renamed_Baltic
-				349 = { change_province_name = "Zimniy" }
-				353 = { change_province_name = "Zhuravlyov" }
-				352 = { change_province_name = "Yuriev" }
-				351 = { change_province_name = "Pirov" }
-				356 = { change_province_name = "Nevgin" } 
-				355 = { change_province_name = "Bogoroditsk" }
-				357 = { change_province_name = "Mitava" }
-				358 = { change_province_name = "Zolotino" } 
-				359 = { change_province_name = "Liubava" } 
-				363 = { change_province_name = "Nyavezhys" }
-				364 = { change_province_name = "Shavel" } 
-				365 = { change_province_name = "Port-Neman" } 
-			}
 	}
-	
-	RUS_rename_Malorussia = {
-		picture = "gtfo"
-		potential = {
-			OR = { AND = { tag = RUS has_country_flag = panslavic_focus }  tag = RUG } 
-			NOT = { has_global_flag = renamed_Malorussia } 
-		}
-		
-		allow = {
-			war = no
-			owns = 957 
-			owns = 940 
-			owns = 958 
-			owns = 956 
-			owns = 937 
-		}
-		
-		effect = {
-				942 = { change_province_name = "Mozyr" } 
-				958 = { change_province_name = "Kyiv" } 
-				959 = { change_province_name = "Zhytomir" } 
-				960 = { change_province_name = "Vinnitsa" } 
-				3251 = { change_province_name = "Mohyliv" } 
-				955 = { change_province_name = "Rivne" }
-				719 = { change_province_name = "Belostok" } 
-				937 = { change_province_name = "Brest" } 
-				957 = { change_province_name = "Kholm" }
-				
-				set_global_flag = renamed_Malorussia
-			
-		}
-		ai_will_do = { 
-		factor = 1 
-		}
-	}
-	
 	RUS_rename_Ruthenia = {
 		picture = "gtfo"
 		potential = {
